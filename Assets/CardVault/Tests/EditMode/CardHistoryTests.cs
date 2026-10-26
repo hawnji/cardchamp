@@ -22,7 +22,9 @@ namespace CardVault.Tests
             foreach (var card in result.Cards)
             {
                 var timeline = game.History.For(card.InstanceId);
-                Assert.That(timeline.Select(e => e.Type), Is.EqualTo(new[] { HistoryEventType.Created, HistoryEventType.PackOpened }));
+                Assert.That(timeline.Take(2).Select(e => e.Type), Is.EqualTo(new[] { HistoryEventType.Created, HistoryEventType.PackOpened }));
+                // A pull can also complete a set milestone; that is the only other entry allowed.
+                Assert.That(timeline.Skip(2).All(e => e.Type == HistoryEventType.SetMilestone));
                 var pull = timeline[1];
                 Assert.That(pull.ProductId, Is.EqualTo("fh26-pack"));
                 Assert.That(pull.SetId, Is.EqualTo("fh26"));

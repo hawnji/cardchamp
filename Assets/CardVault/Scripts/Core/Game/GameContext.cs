@@ -33,11 +33,14 @@ namespace CardVault.Core.Game
         public event Action<GameAction> ActionRecorded;
         public event Action<GameNotification> NotificationCreated;
         public event Action<string> CardChanged;
+        /// <summary>Collector XP granted by rewards (amount, source key).</summary>
+        public event Action<long, string> XpAwarded;
 
         internal void RaiseOwnershipChanged(OwnershipChange change) => OwnershipChanged?.Invoke(change);
         internal void RaiseAction(GameAction action) => ActionRecorded?.Invoke(action);
         internal void RaiseNotification(GameNotification n) => NotificationCreated?.Invoke(n);
         internal void RaiseCardChanged(string cardId) => CardChanged?.Invoke(cardId);
+        internal void QueueXp(Transaction tx, long xp, string source) => tx.Enqueue(() => XpAwarded?.Invoke(xp, source));
     }
 
     /// <summary>

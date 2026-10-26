@@ -8,7 +8,9 @@ using CardVault.Core.Grading;
 using CardVault.Core.History;
 using CardVault.Core.Market;
 using CardVault.Core.Packs;
+using CardVault.Core.Rewards;
 using CardVault.Core.Save;
+using CardVault.Core.Sets;
 using CardVault.Core.State;
 
 namespace CardVault.Core.Game
@@ -34,6 +36,9 @@ namespace CardVault.Core.Game
         public PackOpeningService Packs { get; }
         public MarketService Market { get; }
         public GradingService Grading { get; }
+        public RewardService Rewards { get; }
+        public SetRegistryService Sets { get; }
+        public SetRewardService SetRewards { get; }
 
         /// <summary>Warnings from loading/migrating the save (shown in a debug panel, never to players as paths).</summary>
         public List<string> LoadWarnings { get; } = new List<string>();
@@ -50,6 +55,9 @@ namespace CardVault.Core.Game
             Packs = new PackOpeningService(Context, Inventory, Sealed, History, Catalog);
             Grading = new GradingService(Context, Inventory, History, Economy, Catalog);
             Market = new MarketService(Context, Inventory, Sealed, History, Economy, Prices, Catalog);
+            Rewards = new RewardService(Context, Inventory, History, Economy);
+            Sets = new SetRegistryService(Context);
+            SetRewards = new SetRewardService(Context, Sets, Rewards, History);
         }
 
         /// <summary>Starts a fresh game with starting credits and products from content.</summary>
@@ -110,6 +118,7 @@ namespace CardVault.Core.Game
         private void OnLoaded()
         {
             History.RebuildIndex();
+            SetRewards.EvaluateAll();
         }
 
         /// <summary>
