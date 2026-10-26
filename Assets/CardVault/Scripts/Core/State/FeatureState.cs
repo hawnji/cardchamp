@@ -228,7 +228,13 @@ namespace CardVault.Core.State
         public Dictionary<string, long> Achievements = new Dictionary<string, long>();
         public long CollectorXp;
         public int CollectorRank = 1;
+        /// <summary>"template|parallel" variants ever owned (drives unique-card progress).</summary>
         public HashSet<string> EverOwnedVariants = new HashSet<string>();
-        public HashSet<string> ProcessedActionIds = new HashSet<string>();
+        /// <summary>Serial-numbered card instances already counted as discoveries.</summary>
+        public HashSet<string> DiscoveredRareInstances = new HashSet<string>();
+        public HashSet<string> HistoricalMilestoneCards = new HashSet<string>();
+        public HashSet<int> RankRewardsGranted = new HashSet<int>();
+        /// <summary>Actions are append-only; everything before this index has been applied to stats once.</summary>
+        public int ProcessedActionCount;
     }
 }

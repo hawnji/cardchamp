@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using CardVault.Core.Calendar;
 using CardVault.Core.CardShows;
 using CardVault.Core.Cards;
@@ -48,6 +49,8 @@ namespace CardVault.Core.Game
         public ReleaseCalendarService Calendar { get; }
         public ShopService Shop { get; }
         public CardShowService CardShows { get; }
+        public ProgressionService Progression { get; }
+        public HomeSummaryService Home { get; }
 
         /// <summary>Warnings from loading/migrating the save (shown in a debug panel, never to players as paths).</summary>
         public List<string> LoadWarnings { get; } = new List<string>();
@@ -73,6 +76,8 @@ namespace CardVault.Core.Game
             Shop = new ShopService(Context, Calendar, Sealed, Economy);
             CardShows = new CardShowService(Context, Inventory, Sealed, History, Economy, Rewards, Catalog);
             Calendar.CardShowItems = CardShows.CalendarItems;
+            Progression = new ProgressionService(Context, Rewards, SetRewards, Showcase, History, Unlocks);
+            Home = new HomeSummaryService(Context, Calendar, CardShows, Sets, SetRewards);
         }
 
         /// <summary>Starts a fresh game with starting credits and products from content.</summary>
@@ -134,8 +139,24 @@ namespace CardVault.Core.Game
         {
             History.RebuildIndex();
             SetRewards.EvaluateAll();
+            Progression.CatchUp();
             Showcase.EnsureState();
             Showcase.PurgeInvalidReferences();
+        }
+
+        // ------------------------------------------------------------- notifications
+
+        public IEnumerable<GameNotification> UnreadNotifications => State.Notifications.Where(n => !n.Read);
+
+        public void MarkNotificationRead(string notificationId)
+        {
+            var n = State.Notifications.FirstOrDefault(x => x.NotificationId == notificationId);
+            if (n != null) n.Read = true;
+        }
+
+        public void MarkAllNotificationsRead()
+        {
+            foreach (var n in State.Notifications) n.Read = true;
         }
 
         /// <summary>
