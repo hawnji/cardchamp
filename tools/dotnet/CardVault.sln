@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Core", "Core\CardVault.Core.csproj", "{D61AFC74-EA57-47E2-A9AC-FEC87F28F5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.Tests", "Tests\CardVault.Tests.csproj", "{B2D1FD51-6405-48CF-A71A-D7D04DBD0639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardVault.UnityCompileCheck", "UnityCompileCheck\CardVault.UnityCompileCheck.csproj", "{55E4CE22-19CF-4F10-B08F-3E4C6D83E2AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61AFC74-EA57-47E2-A9AC-FEC87F28F5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61AFC74-EA57-47E2-A9AC-FEC87F28F5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61AFC74-EA57-47E2-A9AC-FEC87F28F5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61AFC74-EA57-47E2-A9AC-FEC87F28F5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D1FD51-6405-48CF-A71A-D7D04DBD0639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D1FD51-6405-48CF-A71A-D7D04DBD0639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D1FD51-6405-48CF-A71A-D7D04DBD0639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D1FD51-6405-48CF-A71A-D7D04DBD0639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E4CE22-19CF-4F10-B08F-3E4C6D83E2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E4CE22-19CF-4F10-B08F-3E4C6D83E2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E4CE22-19CF-4F10-B08F-3E4C6D83E2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E4CE22-19CF-4F10-B08F-3E4C6D83E2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

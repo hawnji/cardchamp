@@ -1,0 +1,6134 @@
+{
+ "contentVersion": 1,
+ "calendarEpochUtc": "2026-01-01T00:00:00Z",
+ "brands": [
+  {
+   "id": "fieldhouse",
+   "name": "Fieldhouse",
+   "category": "Sports",
+   "description": "The flagship everyday sports-card brand."
+  },
+  {
+   "id": "apex-diamond",
+   "name": "Apex Diamond",
+   "category": "Sports",
+   "description": "Premium on-card autographs and low print runs."
+  },
+  {
+   "id": "heritage-lane",
+   "name": "Heritage Lane",
+   "category": "Sports",
+   "description": "Classic cardboard from the golden era of collecting."
+  },
+  {
+   "id": "mythforge",
+   "name": "Mythforge",
+   "category": "Tcg",
+   "description": "Epic fantasy trading cards set in the world of Aetherfall."
+  },
+  {
+   "id": "starbound",
+   "name": "Starbound Saga",
+   "category": "Tcg",
+   "description": "Space-opera trading cards from the Nova Reach frontier."
+  }
+ ],
+ "universes": [
+  {
+   "id": "aetherfall",
+   "name": "Aetherfall",
+   "description": "Floating isles, storm dragons and rune-bound wardens."
+  },
+  {
+   "id": "nova-reach",
+   "name": "Nova Reach",
+   "description": "Frontier colonies and rogue starship captains at the edge of mapped space."
+  }
+ ],
+ "leagues": [
+  {
+   "id": "chl",
+   "name": "Continental Hoops League",
+   "sport": "Basketball"
+  },
+  {
+   "id": "pbu",
+   "name": "Pacific Baseball Union",
+   "sport": "Baseball"
+  }
+ ],
+ "teams": [
+  {
+   "id": "harbor-hawks",
+   "name": "Hawks",
+   "city": "Harbor City",
+   "leagueId": "chl",
+   "primaryColor": "#1F4E8C",
+   "secondaryColor": "#F2B705"
+  },
+  {
+   "id": "summit-peaks",
+   "name": "Peaks",
+   "city": "Summit",
+   "leagueId": "chl",
+   "primaryColor": "#2E6B3F",
+   "secondaryColor": "#E8E8E8"
+  },
+  {
+   "id": "ironvale-forge",
+   "name": "Forge",
+   "city": "Ironvale",
+   "leagueId": "chl",
+   "primaryColor": "#8C2F1F",
+   "secondaryColor": "#2B2B2B"
+  },
+  {
+   "id": "lakeshore-tides",
+   "name": "Tides",
+   "city": "Lakeshore",
+   "leagueId": "chl",
+   "primaryColor": "#127C8C",
+   "secondaryColor": "#F0F0F0"
+  },
+  {
+   "id": "redrock-rattlers",
+   "name": "Rattlers",
+   "city": "Redrock",
+   "leagueId": "pbu",
+   "primaryColor": "#B3412A",
+   "secondaryColor": "#F2D7B6"
+  },
+  {
+   "id": "bayport-mariners",
+   "name": "Navigators",
+   "city": "Bayport",
+   "leagueId": "pbu",
+   "primaryColor": "#16325C",
+   "secondaryColor": "#C9A227"
+  },
+  {
+   "id": "pinecrest-owls",
+   "name": "Owls",
+   "city": "Pinecrest",
+   "leagueId": "pbu",
+   "primaryColor": "#4A3B69",
+   "secondaryColor": "#D9D9D9"
+  },
+  {
+   "id": "goldfield-miners",
+   "name": "Prospectors",
+   "city": "Goldfield",
+   "leagueId": "pbu",
+   "primaryColor": "#3B3B3B",
+   "secondaryColor": "#E3B341"
+  }
+ ],
+ "subjects": [
+  {
+   "id": "mara-voss",
+   "name": "Mara Voss",
+   "kind": "Athlete",
+   "teamId": "harbor-hawks",
+   "position": "Guard",
+   "stats": {
+    "PPG": "9.0",
+    "RPG": "2.0",
+    "APG": "1.0"
+   }
+  },
+  {
+   "id": "dex-okafor",
+   "name": "Dex Okafor",
+   "kind": "Athlete",
+   "teamId": "harbor-hawks",
+   "position": "Center",
+   "stats": {
+    "PPG": "12.7",
+    "RPG": "3.3",
+    "APG": "3.1"
+   }
+  },
+  {
+   "id": "jalen-reyes",
+   "name": "Jalen Reyes",
+   "kind": "Athlete",
+   "teamId": "summit-peaks",
+   "position": "Forward",
+   "stats": {
+    "PPG": "16.4",
+    "RPG": "4.6",
+    "APG": "5.2"
+   }
+  },
+  {
+   "id": "tobias-lind",
+   "name": "Tobias Lind",
+   "kind": "Athlete",
+   "teamId": "summit-peaks",
+   "position": "Guard",
+   "stats": {
+    "PPG": "20.1",
+    "RPG": "5.9",
+    "APG": "7.3"
+   }
+  },
+  {
+   "id": "kai-montgomery",
+   "name": "Kai Montgomery",
+   "kind": "Athlete",
+   "teamId": "ironvale-forge",
+   "position": "Forward",
+   "stats": {
+    "PPG": "23.8",
+    "RPG": "7.2",
+    "APG": "1.4"
+   }
+  },
+  {
+   "id": "andre-castell",
+   "name": "Andre Castell",
+   "kind": "Athlete",
+   "teamId": "ironvale-forge",
+   "position": "Center",
+   "stats": {
+    "PPG": "27.5",
+    "RPG": "8.5",
+    "APG": "3.5"
+   }
+  },
+  {
+   "id": "noor-haddad",
+   "name": "Noor Haddad",
+   "kind": "Athlete",
+   "teamId": "lakeshore-tides",
+   "position": "Guard",
+   "stats": {
+    "PPG": "11.2",
+    "RPG": "9.8",
+    "APG": "5.6"
+   }
+  },
+  {
+   "id": "eli-brannigan",
+   "name": "Eli Brannigan",
+   "kind": "Athlete",
+   "teamId": "lakeshore-tides",
+   "position": "Forward",
+   "stats": {
+    "PPG": "14.9",
+    "RPG": "2.1",
+    "APG": "7.7"
+   }
+  },
+  {
+   "id": "sienna-park",
+   "name": "Sienna Park",
+   "kind": "Athlete",
+   "teamId": "harbor-hawks",
+   "position": "Forward",
+   "stats": {
+    "PPG": "18.6",
+    "RPG": "3.4",
+    "APG": "1.8"
+   }
+  },
+  {
+   "id": "marcus-oyelaran",
+   "name": "Marcus Oyelaran",
+   "kind": "Athlete",
+   "teamId": "summit-peaks",
+   "position": "Center",
+   "stats": {
+    "PPG": "22.3",
+    "RPG": "4.7",
+    "APG": "3.9"
+   }
+  },
+  {
+   "id": "rafael-quinto",
+   "name": "Rafael Quinto",
+   "kind": "Athlete",
+   "teamId": "redrock-rattlers",
+   "position": "Pitcher",
+   "stats": {
+    "AVG": ".320",
+    "HR": "18",
+    "RBI": "80"
+   }
+  },
+  {
+   "id": "hank-delaney",
+   "name": "Hank Delaney",
+   "kind": "Athlete",
+   "teamId": "redrock-rattlers",
+   "position": "Catcher",
+   "stats": {
+    "AVG": ".247",
+    "HR": "25",
+    "RBI": "91"
+   }
+  },
+  {
+   "id": "yuki-tanabe",
+   "name": "Yuki Tanabe",
+   "kind": "Athlete",
+   "teamId": "bayport-mariners",
+   "position": "Shortstop",
+   "stats": {
+    "AVG": ".264",
+    "HR": "32",
+    "RBI": "102"
+   }
+  },
+  {
+   "id": "cole-ashby",
+   "name": "Cole Ashby",
+   "kind": "Athlete",
+   "teamId": "bayport-mariners",
+   "position": "Outfield",
+   "stats": {
+    "AVG": ".281",
+    "HR": "9",
+    "RBI": "43"
+   }
+  },
+  {
+   "id": "ivan-petrov",
+   "name": "Ivan Petrov",
+   "kind": "Athlete",
+   "teamId": "pinecrest-owls",
+   "position": "First Base",
+   "stats": {
+    "AVG": ".298",
+    "HR": "16",
+    "RBI": "54"
+   }
+  },
+  {
+   "id": "luis-cardenal",
+   "name": "Luis Cardenal",
+   "kind": "Athlete",
+   "teamId": "pinecrest-owls",
+   "position": "Pitcher",
+   "stats": {
+    "AVG": ".315",
+    "HR": "23",
+    "RBI": "65"
+   }
+  },
+  {
+   "id": "wes-holloway",
+   "name": "Wes Holloway",
+   "kind": "Athlete",
+   "teamId": "goldfield-miners",
+   "position": "Third Base",
+   "stats": {
+    "AVG": ".242",
+    "HR": "30",
+    "RBI": "76"
+   }
+  },
+  {
+   "id": "benny-marsh",
+   "name": "Benny Marsh",
+   "kind": "Athlete",
+   "teamId": "goldfield-miners",
+   "position": "Outfield",
+   "stats": {
+    "AVG": ".259",
+    "HR": "37",
+    "RBI": "87"
+   }
+  },
+  {
+   "id": "storm-drake-vael",
+   "name": "Vael, Storm Drake",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Storm",
+   "stats": {
+    "Power": "2",
+    "Guard": "1",
+    "Cost": "2"
+   }
+  },
+  {
+   "id": "warden-isolde",
+   "name": "Warden Isolde",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Rune",
+   "stats": {
+    "Power": "5",
+    "Guard": "6",
+    "Cost": "4"
+   }
+  },
+  {
+   "id": "ember-fox-kit",
+   "name": "Kit the Ember Fox",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Fire",
+   "stats": {
+    "Power": "8",
+    "Guard": "2",
+    "Cost": "6"
+   }
+  },
+  {
+   "id": "tidecaller-oren",
+   "name": "Oren the Tidecaller",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Water",
+   "stats": {
+    "Power": "2",
+    "Guard": "7",
+    "Cost": "1"
+   }
+  },
+  {
+   "id": "grove-sentinel",
+   "name": "Grove Sentinel",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Nature",
+   "stats": {
+    "Power": "5",
+    "Guard": "3",
+    "Cost": "3"
+   }
+  },
+  {
+   "id": "shade-lyra",
+   "name": "Lyra of the Shade",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Shadow",
+   "stats": {
+    "Power": "8",
+    "Guard": "8",
+    "Cost": "5"
+   }
+  },
+  {
+   "id": "skyforge-golem",
+   "name": "Skyforge Golem",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Stone",
+   "stats": {
+    "Power": "2",
+    "Guard": "4",
+    "Cost": "7"
+   }
+  },
+  {
+   "id": "aether-phoenix",
+   "name": "Aether Phoenix",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Fire",
+   "stats": {
+    "Power": "5",
+    "Guard": "9",
+    "Cost": "2"
+   }
+  },
+  {
+   "id": "rune-scribe-tam",
+   "name": "Tam the Rune Scribe",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Rune",
+   "stats": {
+    "Power": "8",
+    "Guard": "5",
+    "Cost": "4"
+   }
+  },
+  {
+   "id": "frost-wyrm",
+   "name": "Hollow Frost Wyrm",
+   "kind": "Character",
+   "universeId": "aetherfall",
+   "element": "Ice",
+   "stats": {
+    "Power": "2",
+    "Guard": "1",
+    "Cost": "6"
+   }
+  },
+  {
+   "id": "captain-rhea-cole",
+   "name": "Captain Rhea Cole",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Command",
+   "stats": {
+    "Power": "5",
+    "Guard": "6",
+    "Cost": "1"
+   }
+  },
+  {
+   "id": "drift-pilot-zan",
+   "name": "Zan, Drift Pilot",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Speed",
+   "stats": {
+    "Power": "8",
+    "Guard": "2",
+    "Cost": "3"
+   }
+  },
+  {
+   "id": "void-oracle",
+   "name": "The Void Oracle",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Psionic",
+   "stats": {
+    "Power": "2",
+    "Guard": "7",
+    "Cost": "5"
+   }
+  },
+  {
+   "id": "mech-ward-7",
+   "name": "Mech-Ward 7",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Tech",
+   "stats": {
+    "Power": "5",
+    "Guard": "3",
+    "Cost": "7"
+   }
+  },
+  {
+   "id": "nebula-runner",
+   "name": "Nebula Runner",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Speed",
+   "stats": {
+    "Power": "8",
+    "Guard": "8",
+    "Cost": "2"
+   }
+  },
+  {
+   "id": "ion-sentry",
+   "name": "Ion Sentry",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Tech",
+   "stats": {
+    "Power": "2",
+    "Guard": "4",
+    "Cost": "4"
+   }
+  },
+  {
+   "id": "quasar-knight",
+   "name": "Quasar Knight",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Command",
+   "stats": {
+    "Power": "5",
+    "Guard": "9",
+    "Cost": "6"
+   }
+  },
+  {
+   "id": "salvager-moss",
+   "name": "Moss the Salvager",
+   "kind": "Character",
+   "universeId": "nova-reach",
+   "element": "Tech",
+   "stats": {
+    "Power": "8",
+    "Guard": "5",
+    "Cost": "1"
+   }
+  }
+ ],
+ "parallels": [
+  {
+   "id": "base",
+   "name": "Base",
+   "printRun": 0,
+   "valueMultiplier": 1.0,
+   "colorHex": "#D9D9D9",
+   "isBase": true
+  },
+  {
+   "id": "silver",
+   "name": "Silver Prizm",
+   "printRun": 0,
+   "valueMultiplier": 2.0,
+   "colorHex": "#C0C7D1"
+  },
+  {
+   "id": "gold50",
+   "name": "Gold",
+   "printRun": 50,
+   "valueMultiplier": 8.0,
+   "colorHex": "#E3B341"
+  },
+  {
+   "id": "black1",
+   "name": "Black 1/1",
+   "printRun": 1,
+   "valueMultiplier": 60.0,
+   "colorHex": "#111111"
+  },
+  {
+   "id": "gold25",
+   "name": "Gold Refractor",
+   "printRun": 25,
+   "valueMultiplier": 10.0,
+   "colorHex": "#E8B923"
+  },
+  {
+   "id": "red10",
+   "name": "Red Refractor",
+   "printRun": 10,
+   "valueMultiplier": 18.0,
+   "colorHex": "#C8102E"
+  },
+  {
+   "id": "superfractor1",
+   "name": "Superfractor",
+   "printRun": 1,
+   "valueMultiplier": 80.0,
+   "colorHex": "#F5D76E"
+  },
+  {
+   "id": "holo",
+   "name": "Holofoil",
+   "printRun": 0,
+   "valueMultiplier": 2.5,
+   "colorHex": "#A6E3F0"
+  },
+  {
+   "id": "prismatic99",
+   "name": "Prismatic",
+   "printRun": 99,
+   "valueMultiplier": 6.0,
+   "colorHex": "#B57EDC"
+  },
+  {
+   "id": "mythic1",
+   "name": "Mythic 1/1",
+   "printRun": 1,
+   "valueMultiplier": 70.0,
+   "colorHex": "#5B2A86"
+  },
+  {
+   "id": "starlight25",
+   "name": "Starlight",
+   "printRun": 25,
+   "valueMultiplier": 9.0,
+   "colorHex": "#2F80ED"
+  },
+  {
+   "id": "foil94",
+   "name": "Gold Foil Stamp",
+   "printRun": 0,
+   "valueMultiplier": 1.8,
+   "colorHex": "#C9A227"
+  },
+  {
+   "id": "expo25",
+   "name": "Expo Exclusive",
+   "printRun": 25,
+   "valueMultiplier": 12.0,
+   "colorHex": "#FF7A1A"
+  },
+  {
+   "id": "first-edition",
+   "name": "First Edition",
+   "printRun": 0,
+   "valueMultiplier": 3.0,
+   "colorHex": "#8B5A2B"
+  }
+ ],
+ "cards": [
+  {
+   "id": "fh26-001",
+   "setId": "fh26",
+   "number": 1,
+   "name": "Mara Voss",
+   "subjectId": "mara-voss",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/001",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-002",
+   "setId": "fh26",
+   "number": 2,
+   "name": "Dex Okafor",
+   "subjectId": "dex-okafor",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/002",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-003",
+   "setId": "fh26",
+   "number": 3,
+   "name": "Jalen Reyes",
+   "subjectId": "jalen-reyes",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/003",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fh26-004",
+   "setId": "fh26",
+   "number": 4,
+   "name": "Tobias Lind",
+   "subjectId": "tobias-lind",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/004",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-005",
+   "setId": "fh26",
+   "number": 5,
+   "name": "Kai Montgomery",
+   "subjectId": "kai-montgomery",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/005",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-006",
+   "setId": "fh26",
+   "number": 6,
+   "name": "Andre Castell",
+   "subjectId": "andre-castell",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/006",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fh26-007",
+   "setId": "fh26",
+   "number": 7,
+   "name": "Noor Haddad",
+   "subjectId": "noor-haddad",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/007",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-008",
+   "setId": "fh26",
+   "number": 8,
+   "name": "Eli Brannigan",
+   "subjectId": "eli-brannigan",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/008",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-009",
+   "setId": "fh26",
+   "number": 9,
+   "name": "Sienna Park",
+   "subjectId": "sienna-park",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fh26/009",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fh26-010",
+   "setId": "fh26",
+   "number": 10,
+   "name": "Marcus Oyelaran",
+   "subjectId": "marcus-oyelaran",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "fh26/010",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-011",
+   "setId": "fh26",
+   "number": 11,
+   "name": "Mara Voss",
+   "subjectId": "mara-voss",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "fh26/011",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-012",
+   "setId": "fh26",
+   "number": 12,
+   "name": "Dex Okafor",
+   "subjectId": "dex-okafor",
+   "rarity": "Uncommon",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "fh26/012",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fh26-013",
+   "setId": "fh26",
+   "number": 13,
+   "name": "Jalen Reyes",
+   "subjectId": "jalen-reyes",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "fh26/013",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-014",
+   "setId": "fh26",
+   "number": 14,
+   "name": "Tobias Lind",
+   "subjectId": "tobias-lind",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "fh26/014",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-015",
+   "setId": "fh26",
+   "number": 15,
+   "name": "Kai Montgomery",
+   "subjectId": "kai-montgomery",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "fh26/015",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-016",
+   "setId": "fh26",
+   "number": 16,
+   "name": "Andre Castell",
+   "subjectId": "andre-castell",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "fh26/016",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-017",
+   "setId": "fh26",
+   "number": 17,
+   "name": "Noor Haddad",
+   "subjectId": "noor-haddad",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "fh26/017",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-018",
+   "setId": "fh26",
+   "number": 18,
+   "name": "Eli Brannigan",
+   "subjectId": "eli-brannigan",
+   "rarity": "Rare",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "fh26/018",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fh26-019",
+   "setId": "fh26",
+   "number": 19,
+   "name": "Sienna Park",
+   "subjectId": "sienna-park",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 200,
+   "artKey": "fh26/019",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fh26-020",
+   "setId": "fh26",
+   "number": 20,
+   "name": "Marcus Oyelaran",
+   "subjectId": "marcus-oyelaran",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 200,
+   "artKey": "fh26/020",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-001",
+   "setId": "apex26",
+   "number": 1,
+   "name": "Rafael Quinto",
+   "subjectId": "rafael-quinto",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "apex26/001",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-002",
+   "setId": "apex26",
+   "number": 2,
+   "name": "Hank Delaney",
+   "subjectId": "hank-delaney",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "apex26/002",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "apex26-003",
+   "setId": "apex26",
+   "number": 3,
+   "name": "Yuki Tanabe",
+   "subjectId": "yuki-tanabe",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "apex26/003",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-004",
+   "setId": "apex26",
+   "number": 4,
+   "name": "Cole Ashby",
+   "subjectId": "cole-ashby",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "apex26/004",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-005",
+   "setId": "apex26",
+   "number": 5,
+   "name": "Ivan Petrov",
+   "subjectId": "ivan-petrov",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "apex26/005",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-006",
+   "setId": "apex26",
+   "number": 6,
+   "name": "Luis Cardenal",
+   "subjectId": "luis-cardenal",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "apex26/006",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-007",
+   "setId": "apex26",
+   "number": 7,
+   "name": "Wes Holloway",
+   "subjectId": "wes-holloway",
+   "rarity": "Uncommon",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "apex26/007",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "apex26-008",
+   "setId": "apex26",
+   "number": 8,
+   "name": "Benny Marsh",
+   "subjectId": "benny-marsh",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "apex26/008",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-009",
+   "setId": "apex26",
+   "number": 9,
+   "name": "Rafael Quinto",
+   "subjectId": "rafael-quinto",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "apex26/009",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-010",
+   "setId": "apex26",
+   "number": 10,
+   "name": "Hank Delaney Autograph",
+   "subjectId": "hank-delaney",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": true,
+   "isAlternateArt": false,
+   "baseValue": 180,
+   "artKey": "apex26/010",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-011",
+   "setId": "apex26",
+   "number": 11,
+   "name": "Yuki Tanabe Autograph",
+   "subjectId": "yuki-tanabe",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": true,
+   "isAlternateArt": false,
+   "baseValue": 180,
+   "artKey": "apex26/011",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "apex26-012",
+   "setId": "apex26",
+   "number": 12,
+   "name": "Cole Ashby Autograph",
+   "subjectId": "cole-ashby",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": true,
+   "isAlternateArt": false,
+   "baseValue": 600,
+   "artKey": "apex26/012",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-001",
+   "setId": "hl94",
+   "number": 1,
+   "name": "Rafael Quinto",
+   "subjectId": "rafael-quinto",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "hl94/001",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-002",
+   "setId": "hl94",
+   "number": 2,
+   "name": "Hank Delaney",
+   "subjectId": "hank-delaney",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "hl94/002",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-003",
+   "setId": "hl94",
+   "number": 3,
+   "name": "Yuki Tanabe",
+   "subjectId": "yuki-tanabe",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "hl94/003",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-004",
+   "setId": "hl94",
+   "number": 4,
+   "name": "Cole Ashby",
+   "subjectId": "cole-ashby",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "hl94/004",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "hl94-005",
+   "setId": "hl94",
+   "number": 5,
+   "name": "Ivan Petrov",
+   "subjectId": "ivan-petrov",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "hl94/005",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-006",
+   "setId": "hl94",
+   "number": 6,
+   "name": "Luis Cardenal",
+   "subjectId": "luis-cardenal",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "hl94/006",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-007",
+   "setId": "hl94",
+   "number": 7,
+   "name": "Wes Holloway",
+   "subjectId": "wes-holloway",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "hl94/007",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-008",
+   "setId": "hl94",
+   "number": 8,
+   "name": "Benny Marsh",
+   "subjectId": "benny-marsh",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "hl94/008",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-009",
+   "setId": "hl94",
+   "number": 9,
+   "name": "Rafael Quinto",
+   "subjectId": "rafael-quinto",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "hl94/009",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-010",
+   "setId": "hl94",
+   "number": 10,
+   "name": "Hank Delaney",
+   "subjectId": "hank-delaney",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "hl94/010",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-011",
+   "setId": "hl94",
+   "number": 11,
+   "name": "Yuki Tanabe",
+   "subjectId": "yuki-tanabe",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "hl94/011",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "hl94-012",
+   "setId": "hl94",
+   "number": 12,
+   "name": "Cole Ashby",
+   "subjectId": "cole-ashby",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 200,
+   "artKey": "hl94/012",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "fhr26-001",
+   "setId": "fhr26",
+   "number": 1,
+   "name": "Mara Voss",
+   "subjectId": "mara-voss",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fhr26/001",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-002",
+   "setId": "fhr26",
+   "number": 2,
+   "name": "Dex Okafor",
+   "subjectId": "dex-okafor",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fhr26/002",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-003",
+   "setId": "fhr26",
+   "number": 3,
+   "name": "Jalen Reyes",
+   "subjectId": "jalen-reyes",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fhr26/003",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-004",
+   "setId": "fhr26",
+   "number": 4,
+   "name": "Tobias Lind",
+   "subjectId": "tobias-lind",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fhr26/004",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-005",
+   "setId": "fhr26",
+   "number": 5,
+   "name": "Kai Montgomery",
+   "subjectId": "kai-montgomery",
+   "rarity": "Common",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "fhr26/005",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-006",
+   "setId": "fhr26",
+   "number": 6,
+   "name": "Andre Castell",
+   "subjectId": "andre-castell",
+   "rarity": "Uncommon",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "fhr26/006",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-007",
+   "setId": "fhr26",
+   "number": 7,
+   "name": "Noor Haddad",
+   "subjectId": "noor-haddad",
+   "rarity": "Uncommon",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "fhr26/007",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-008",
+   "setId": "fhr26",
+   "number": 8,
+   "name": "Eli Brannigan",
+   "subjectId": "eli-brannigan",
+   "rarity": "Rare",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "fhr26/008",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-009",
+   "setId": "fhr26",
+   "number": 9,
+   "name": "Sienna Park",
+   "subjectId": "sienna-park",
+   "rarity": "Rare",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "fhr26/009",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "fhr26-010",
+   "setId": "fhr26",
+   "number": 10,
+   "name": "Marcus Oyelaran",
+   "subjectId": "marcus-oyelaran",
+   "rarity": "SuperRare",
+   "isRookie": true,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 200,
+   "artKey": "fhr26/010",
+   "flavorText": "",
+   "tags": [
+    "rookie"
+   ]
+  },
+  {
+   "id": "aeth-001",
+   "setId": "aeth",
+   "number": 1,
+   "name": "Vael, Storm Drake",
+   "subjectId": "storm-drake-vael",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/001",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-002",
+   "setId": "aeth",
+   "number": 2,
+   "name": "Warden Isolde",
+   "subjectId": "warden-isolde",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/002",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-003",
+   "setId": "aeth",
+   "number": 3,
+   "name": "Kit the Ember Fox",
+   "subjectId": "ember-fox-kit",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/003",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-004",
+   "setId": "aeth",
+   "number": 4,
+   "name": "Oren the Tidecaller",
+   "subjectId": "tidecaller-oren",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/004",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-005",
+   "setId": "aeth",
+   "number": 5,
+   "name": "Grove Sentinel",
+   "subjectId": "grove-sentinel",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/005",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-006",
+   "setId": "aeth",
+   "number": 6,
+   "name": "Lyra of the Shade",
+   "subjectId": "shade-lyra",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/006",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-007",
+   "setId": "aeth",
+   "number": 7,
+   "name": "Skyforge Golem",
+   "subjectId": "skyforge-golem",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/007",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-008",
+   "setId": "aeth",
+   "number": 8,
+   "name": "Aether Phoenix",
+   "subjectId": "aether-phoenix",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/008",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-009",
+   "setId": "aeth",
+   "number": 9,
+   "name": "Tam the Rune Scribe",
+   "subjectId": "rune-scribe-tam",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "aeth/009",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-010",
+   "setId": "aeth",
+   "number": 10,
+   "name": "Hollow Frost Wyrm",
+   "subjectId": "frost-wyrm",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "aeth/010",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-011",
+   "setId": "aeth",
+   "number": 11,
+   "name": "Vael, Storm Drake",
+   "subjectId": "storm-drake-vael",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "aeth/011",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-012",
+   "setId": "aeth",
+   "number": 12,
+   "name": "Warden Isolde",
+   "subjectId": "warden-isolde",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "aeth/012",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-013",
+   "setId": "aeth",
+   "number": 13,
+   "name": "Kit the Ember Fox",
+   "subjectId": "ember-fox-kit",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "aeth/013",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-014",
+   "setId": "aeth",
+   "number": 14,
+   "name": "Oren the Tidecaller",
+   "subjectId": "tidecaller-oren",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "aeth/014",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-015",
+   "setId": "aeth",
+   "number": 15,
+   "name": "Grove Sentinel",
+   "subjectId": "grove-sentinel",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "aeth/015",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-016",
+   "setId": "aeth",
+   "number": 16,
+   "name": "Lyra of the Shade (Alternate Art)",
+   "subjectId": "shade-lyra",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": true,
+   "baseValue": 60,
+   "artKey": "aeth/016",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-017",
+   "setId": "aeth",
+   "number": 17,
+   "name": "Skyforge Golem",
+   "subjectId": "skyforge-golem",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "aeth/017",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-018",
+   "setId": "aeth",
+   "number": 18,
+   "name": "Aether Phoenix (Alternate Art)",
+   "subjectId": "aether-phoenix",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": true,
+   "baseValue": 60,
+   "artKey": "aeth/018",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-019",
+   "setId": "aeth",
+   "number": 19,
+   "name": "Tam the Rune Scribe",
+   "subjectId": "rune-scribe-tam",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 200,
+   "artKey": "aeth/019",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "aeth-020",
+   "setId": "aeth",
+   "number": 20,
+   "name": "Hollow Frost Wyrm (Alternate Art)",
+   "subjectId": "frost-wyrm",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": true,
+   "baseValue": 200,
+   "artKey": "aeth/020",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-001",
+   "setId": "nova",
+   "number": 1,
+   "name": "Captain Rhea Cole",
+   "subjectId": "captain-rhea-cole",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/001",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-002",
+   "setId": "nova",
+   "number": 2,
+   "name": "Zan, Drift Pilot",
+   "subjectId": "drift-pilot-zan",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/002",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-003",
+   "setId": "nova",
+   "number": 3,
+   "name": "The Void Oracle",
+   "subjectId": "void-oracle",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/003",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-004",
+   "setId": "nova",
+   "number": 4,
+   "name": "Mech-Ward 7",
+   "subjectId": "mech-ward-7",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/004",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-005",
+   "setId": "nova",
+   "number": 5,
+   "name": "Nebula Runner",
+   "subjectId": "nebula-runner",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/005",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-006",
+   "setId": "nova",
+   "number": 6,
+   "name": "Ion Sentry",
+   "subjectId": "ion-sentry",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/006",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-007",
+   "setId": "nova",
+   "number": 7,
+   "name": "Quasar Knight",
+   "subjectId": "quasar-knight",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/007",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-008",
+   "setId": "nova",
+   "number": 8,
+   "name": "Moss the Salvager",
+   "subjectId": "salvager-moss",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "nova/008",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-009",
+   "setId": "nova",
+   "number": 9,
+   "name": "Captain Rhea Cole",
+   "subjectId": "captain-rhea-cole",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "nova/009",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-010",
+   "setId": "nova",
+   "number": 10,
+   "name": "Zan, Drift Pilot",
+   "subjectId": "drift-pilot-zan",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "nova/010",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-011",
+   "setId": "nova",
+   "number": 11,
+   "name": "The Void Oracle",
+   "subjectId": "void-oracle",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "nova/011",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-012",
+   "setId": "nova",
+   "number": 12,
+   "name": "Mech-Ward 7",
+   "subjectId": "mech-ward-7",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "nova/012",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-013",
+   "setId": "nova",
+   "number": 13,
+   "name": "Nebula Runner",
+   "subjectId": "nebula-runner",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "nova/013",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-014",
+   "setId": "nova",
+   "number": 14,
+   "name": "Ion Sentry",
+   "subjectId": "ion-sentry",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "nova/014",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-015",
+   "setId": "nova",
+   "number": 15,
+   "name": "Quasar Knight (Alternate Art)",
+   "subjectId": "quasar-knight",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": true,
+   "baseValue": 60,
+   "artKey": "nova/015",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "nova-016",
+   "setId": "nova",
+   "number": 16,
+   "name": "Moss the Salvager (Alternate Art)",
+   "subjectId": "salvager-moss",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": true,
+   "baseValue": 200,
+   "artKey": "nova/016",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-001",
+   "setId": "mfo01",
+   "number": 1,
+   "name": "Vael, Storm Drake",
+   "subjectId": "storm-drake-vael",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "mfo01/001",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-002",
+   "setId": "mfo01",
+   "number": 2,
+   "name": "Warden Isolde",
+   "subjectId": "warden-isolde",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "mfo01/002",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-003",
+   "setId": "mfo01",
+   "number": 3,
+   "name": "Kit the Ember Fox",
+   "subjectId": "ember-fox-kit",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "mfo01/003",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-004",
+   "setId": "mfo01",
+   "number": 4,
+   "name": "Oren the Tidecaller",
+   "subjectId": "tidecaller-oren",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "mfo01/004",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-005",
+   "setId": "mfo01",
+   "number": 5,
+   "name": "Grove Sentinel",
+   "subjectId": "grove-sentinel",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "mfo01/005",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-006",
+   "setId": "mfo01",
+   "number": 6,
+   "name": "Lyra of the Shade",
+   "subjectId": "shade-lyra",
+   "rarity": "Common",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 5,
+   "artKey": "mfo01/006",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-007",
+   "setId": "mfo01",
+   "number": 7,
+   "name": "Skyforge Golem",
+   "subjectId": "skyforge-golem",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "mfo01/007",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-008",
+   "setId": "mfo01",
+   "number": 8,
+   "name": "Aether Phoenix",
+   "subjectId": "aether-phoenix",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "mfo01/008",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-009",
+   "setId": "mfo01",
+   "number": 9,
+   "name": "Tam the Rune Scribe",
+   "subjectId": "rune-scribe-tam",
+   "rarity": "Uncommon",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 15,
+   "artKey": "mfo01/009",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-010",
+   "setId": "mfo01",
+   "number": 10,
+   "name": "Hollow Frost Wyrm",
+   "subjectId": "frost-wyrm",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "mfo01/010",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-011",
+   "setId": "mfo01",
+   "number": 11,
+   "name": "Vael, Storm Drake",
+   "subjectId": "storm-drake-vael",
+   "rarity": "Rare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 60,
+   "artKey": "mfo01/011",
+   "flavorText": "",
+   "tags": []
+  },
+  {
+   "id": "mfo01-012",
+   "setId": "mfo01",
+   "number": 12,
+   "name": "Warden Isolde",
+   "subjectId": "warden-isolde",
+   "rarity": "SuperRare",
+   "isRookie": false,
+   "isAutograph": false,
+   "isAlternateArt": false,
+   "baseValue": 200,
+   "artKey": "mfo01/012",
+   "flavorText": "",
+   "tags": []
+  }
+ ],
+ "sets": [
+  {
+   "id": "fh26",
+   "name": "Fieldhouse 2026 Hoops",
+   "brandId": "fieldhouse",
+   "category": "Sports",
+   "year": 2026,
+   "isVintage": false,
+   "artKey": "fh26",
+   "description": "The everyday flagship. Rookie class headlined by Sienna Park.",
+   "cardTemplateIds": [
+    "fh26-001",
+    "fh26-002",
+    "fh26-003",
+    "fh26-004",
+    "fh26-005",
+    "fh26-006",
+    "fh26-007",
+    "fh26-008",
+    "fh26-009",
+    "fh26-010",
+    "fh26-011",
+    "fh26-012",
+    "fh26-013",
+    "fh26-014",
+    "fh26-015",
+    "fh26-016",
+    "fh26-017",
+    "fh26-018",
+    "fh26-019",
+    "fh26-020"
+   ],
+   "parallelIds": [
+    "silver",
+    "gold50",
+    "black1",
+    "expo25"
+   ],
+   "milestones": [
+    {
+     "id": "pct25",
+     "name": "25% Collected",
+     "kind": "BasePercent",
+     "threshold": 25,
+     "autoGrant": true,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 40
+     }
+    },
+    {
+     "id": "pct50",
+     "name": "Halfway There",
+     "kind": "BasePercent",
+     "threshold": 50,
+     "reward": {
+      "credits": 300,
+      "eventTickets": 1,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "pct75",
+     "name": "75% Collected",
+     "kind": "BasePercent",
+     "threshold": 75,
+     "reward": {
+      "credits": 450,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-leather"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 80
+     }
+    },
+    {
+     "id": "complete",
+     "name": "Base Set Complete",
+     "kind": "AllBase",
+     "reward": {
+      "credits": 1000,
+      "eventTickets": 2,
+      "cosmeticIds": [
+       "frame-set-master",
+       "title-set-master"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 200
+     }
+    },
+    {
+     "id": "rookies",
+     "name": "Every Rookie",
+     "kind": "AllRookies",
+     "reward": {
+      "credits": 250,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "title-rookie-hunter"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "star-mara-voss",
+     "name": "Star Collection",
+     "kind": "AllOfSubject",
+     "subjectId": "mara-voss",
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-marble"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "chase-gold50",
+     "name": "Chase Collection",
+     "kind": "ParallelComplete",
+     "parallelId": "gold50",
+     "reward": {
+      "credits": 2500,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-crystal"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 300
+     }
+    },
+    {
+     "id": "graded9",
+     "name": "Gem Set (Grade 9+)",
+     "kind": "GradedComplete",
+     "minGrade": 9,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 2,
+      "cosmeticIds": [
+       "shelf-glass"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 200
+     }
+    }
+   ],
+   "leagueId": "chl"
+  },
+  {
+   "id": "apex26",
+   "name": "Apex Diamond 2026 Baseball",
+   "brandId": "apex-diamond",
+   "category": "Sports",
+   "year": 2026,
+   "isVintage": false,
+   "artKey": "apex26",
+   "description": "Premium hits: on-card autographs and refractors numbered to 25, 10 and 1.",
+   "cardTemplateIds": [
+    "apex26-001",
+    "apex26-002",
+    "apex26-003",
+    "apex26-004",
+    "apex26-005",
+    "apex26-006",
+    "apex26-007",
+    "apex26-008",
+    "apex26-009",
+    "apex26-010",
+    "apex26-011",
+    "apex26-012"
+   ],
+   "parallelIds": [
+    "gold25",
+    "red10",
+    "superfractor1"
+   ],
+   "milestones": [
+    {
+     "id": "pct25",
+     "name": "25% Collected",
+     "kind": "BasePercent",
+     "threshold": 25,
+     "autoGrant": true,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 40
+     }
+    },
+    {
+     "id": "pct50",
+     "name": "Halfway There",
+     "kind": "BasePercent",
+     "threshold": 50,
+     "reward": {
+      "credits": 300,
+      "eventTickets": 1,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "pct75",
+     "name": "75% Collected",
+     "kind": "BasePercent",
+     "threshold": 75,
+     "reward": {
+      "credits": 450,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-leather"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 80
+     }
+    },
+    {
+     "id": "complete",
+     "name": "Base Set Complete",
+     "kind": "AllBase",
+     "reward": {
+      "credits": 1000,
+      "eventTickets": 2,
+      "cosmeticIds": [
+       "frame-set-master",
+       "title-set-master"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 200
+     }
+    },
+    {
+     "id": "rookies",
+     "name": "Every Rookie",
+     "kind": "AllRookies",
+     "reward": {
+      "credits": 250,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "title-rookie-hunter"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "star-rafael-quinto",
+     "name": "Star Collection",
+     "kind": "AllOfSubject",
+     "subjectId": "rafael-quinto",
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-marble"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "chase-red10",
+     "name": "Chase Collection",
+     "kind": "ParallelComplete",
+     "parallelId": "red10",
+     "reward": {
+      "credits": 2500,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-crystal"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 300
+     }
+    }
+   ],
+   "leagueId": "pbu"
+  },
+  {
+   "id": "hl94",
+   "name": "Heritage Lane 1994 Baseball",
+   "brandId": "heritage-lane",
+   "category": "Sports",
+   "year": 1994,
+   "isVintage": true,
+   "artKey": "hl94",
+   "description": "Discontinued wax from 1994. Centering was never this brand's strong suit.",
+   "cardTemplateIds": [
+    "hl94-001",
+    "hl94-002",
+    "hl94-003",
+    "hl94-004",
+    "hl94-005",
+    "hl94-006",
+    "hl94-007",
+    "hl94-008",
+    "hl94-009",
+    "hl94-010",
+    "hl94-011",
+    "hl94-012"
+   ],
+   "parallelIds": [
+    "foil94"
+   ],
+   "milestones": [
+    {
+     "id": "pct25",
+     "name": "25% Collected",
+     "kind": "BasePercent",
+     "threshold": 25,
+     "autoGrant": true,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 40
+     }
+    },
+    {
+     "id": "pct50",
+     "name": "Halfway There",
+     "kind": "BasePercent",
+     "threshold": 50,
+     "reward": {
+      "credits": 300,
+      "eventTickets": 1,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "pct75",
+     "name": "75% Collected",
+     "kind": "BasePercent",
+     "threshold": 75,
+     "reward": {
+      "credits": 450,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-leather"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 80
+     }
+    },
+    {
+     "id": "rookies",
+     "name": "Every Rookie",
+     "kind": "AllRookies",
+     "reward": {
+      "credits": 250,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "title-rookie-hunter"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "graded9",
+     "name": "Gem Set (Grade 9+)",
+     "kind": "GradedComplete",
+     "minGrade": 9,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 2,
+      "cosmeticIds": [
+       "shelf-glass"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 200
+     }
+    },
+    {
+     "id": "vintage-complete",
+     "name": "Vintage Set Restored",
+     "kind": "AllBase",
+     "reward": {
+      "credits": 800,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "bg-vintage-hobby-shop",
+       "title-vintage-curator"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 250
+     }
+    }
+   ],
+   "leagueId": "pbu"
+  },
+  {
+   "id": "fhr26",
+   "name": "Fieldhouse Rising Rookies 2026",
+   "brandId": "fieldhouse",
+   "category": "Sports",
+   "year": 2026,
+   "isVintage": false,
+   "artKey": "fhr26",
+   "description": "A rookie-only short print release.",
+   "cardTemplateIds": [
+    "fhr26-001",
+    "fhr26-002",
+    "fhr26-003",
+    "fhr26-004",
+    "fhr26-005",
+    "fhr26-006",
+    "fhr26-007",
+    "fhr26-008",
+    "fhr26-009",
+    "fhr26-010"
+   ],
+   "parallelIds": [
+    "silver",
+    "gold50"
+   ],
+   "milestones": [
+    {
+     "id": "pct25",
+     "name": "25% Collected",
+     "kind": "BasePercent",
+     "threshold": 25,
+     "autoGrant": true,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 40
+     }
+    },
+    {
+     "id": "pct50",
+     "name": "Halfway There",
+     "kind": "BasePercent",
+     "threshold": 50,
+     "reward": {
+      "credits": 300,
+      "eventTickets": 1,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "pct75",
+     "name": "75% Collected",
+     "kind": "BasePercent",
+     "threshold": 75,
+     "reward": {
+      "credits": 450,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-leather"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 80
+     }
+    },
+    {
+     "id": "complete",
+     "name": "Base Set Complete",
+     "kind": "AllBase",
+     "reward": {
+      "credits": 1000,
+      "eventTickets": 2,
+      "cosmeticIds": [
+       "frame-set-master",
+       "title-set-master"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 200
+     }
+    },
+    {
+     "id": "rookies",
+     "name": "Every Rookie",
+     "kind": "AllRookies",
+     "reward": {
+      "credits": 250,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "title-rookie-hunter"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    }
+   ],
+   "leagueId": "chl"
+  },
+  {
+   "id": "aeth",
+   "name": "Mythforge: Aetherfall",
+   "brandId": "mythforge",
+   "category": "Tcg",
+   "year": 2026,
+   "isVintage": false,
+   "artKey": "aeth",
+   "description": "The storm dragons return. Alternate-art chase cards in every box.",
+   "cardTemplateIds": [
+    "aeth-001",
+    "aeth-002",
+    "aeth-003",
+    "aeth-004",
+    "aeth-005",
+    "aeth-006",
+    "aeth-007",
+    "aeth-008",
+    "aeth-009",
+    "aeth-010",
+    "aeth-011",
+    "aeth-012",
+    "aeth-013",
+    "aeth-014",
+    "aeth-015",
+    "aeth-016",
+    "aeth-017",
+    "aeth-018",
+    "aeth-019",
+    "aeth-020"
+   ],
+   "parallelIds": [
+    "holo",
+    "prismatic99",
+    "mythic1"
+   ],
+   "milestones": [
+    {
+     "id": "pct25",
+     "name": "25% Collected",
+     "kind": "BasePercent",
+     "threshold": 25,
+     "autoGrant": true,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 40
+     }
+    },
+    {
+     "id": "pct50",
+     "name": "Halfway There",
+     "kind": "BasePercent",
+     "threshold": 50,
+     "reward": {
+      "credits": 300,
+      "eventTickets": 1,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "pct75",
+     "name": "75% Collected",
+     "kind": "BasePercent",
+     "threshold": 75,
+     "reward": {
+      "credits": 450,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-leather"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 80
+     }
+    },
+    {
+     "id": "complete",
+     "name": "Base Set Complete",
+     "kind": "AllBase",
+     "reward": {
+      "credits": 1000,
+      "eventTickets": 2,
+      "cosmeticIds": [
+       "frame-set-master",
+       "title-set-master"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 200
+     }
+    },
+    {
+     "id": "star-storm-drake-vael",
+     "name": "Star Collection",
+     "kind": "AllOfSubject",
+     "subjectId": "storm-drake-vael",
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-marble"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "chase-prismatic99",
+     "name": "Chase Collection",
+     "kind": "ParallelComplete",
+     "parallelId": "prismatic99",
+     "reward": {
+      "credits": 2500,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-crystal"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 300
+     }
+    }
+   ],
+   "universeId": "aetherfall"
+  },
+  {
+   "id": "nova",
+   "name": "Starbound Saga: Nova Reach",
+   "brandId": "starbound",
+   "category": "Tcg",
+   "year": 2026,
+   "isVintage": false,
+   "artKey": "nova",
+   "description": "Chart the frontier with Captain Rhea Cole.",
+   "cardTemplateIds": [
+    "nova-001",
+    "nova-002",
+    "nova-003",
+    "nova-004",
+    "nova-005",
+    "nova-006",
+    "nova-007",
+    "nova-008",
+    "nova-009",
+    "nova-010",
+    "nova-011",
+    "nova-012",
+    "nova-013",
+    "nova-014",
+    "nova-015",
+    "nova-016"
+   ],
+   "parallelIds": [
+    "holo",
+    "starlight25"
+   ],
+   "milestones": [
+    {
+     "id": "pct25",
+     "name": "25% Collected",
+     "kind": "BasePercent",
+     "threshold": 25,
+     "autoGrant": true,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 40
+     }
+    },
+    {
+     "id": "pct50",
+     "name": "Halfway There",
+     "kind": "BasePercent",
+     "threshold": 50,
+     "reward": {
+      "credits": 300,
+      "eventTickets": 1,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "pct75",
+     "name": "75% Collected",
+     "kind": "BasePercent",
+     "threshold": 75,
+     "reward": {
+      "credits": 450,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-leather"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 80
+     }
+    },
+    {
+     "id": "complete",
+     "name": "Base Set Complete",
+     "kind": "AllBase",
+     "reward": {
+      "credits": 1000,
+      "eventTickets": 2,
+      "cosmeticIds": [
+       "frame-set-master",
+       "title-set-master"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 200
+     }
+    },
+    {
+     "id": "star-captain-rhea-cole",
+     "name": "Star Collection",
+     "kind": "AllOfSubject",
+     "subjectId": "captain-rhea-cole",
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-marble"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "chase-starlight25",
+     "name": "Chase Collection",
+     "kind": "ParallelComplete",
+     "parallelId": "starlight25",
+     "reward": {
+      "credits": 2500,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-crystal"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 300
+     }
+    }
+   ],
+   "universeId": "nova-reach"
+  },
+  {
+   "id": "mfo01",
+   "name": "Mythforge Origins (2001)",
+   "brandId": "mythforge",
+   "category": "Tcg",
+   "year": 2001,
+   "isVintage": true,
+   "artKey": "mfo01",
+   "description": "The historical first print run of Mythforge.",
+   "cardTemplateIds": [
+    "mfo01-001",
+    "mfo01-002",
+    "mfo01-003",
+    "mfo01-004",
+    "mfo01-005",
+    "mfo01-006",
+    "mfo01-007",
+    "mfo01-008",
+    "mfo01-009",
+    "mfo01-010",
+    "mfo01-011",
+    "mfo01-012"
+   ],
+   "parallelIds": [
+    "first-edition"
+   ],
+   "milestones": [
+    {
+     "id": "pct25",
+     "name": "25% Collected",
+     "kind": "BasePercent",
+     "threshold": 25,
+     "autoGrant": true,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 40
+     }
+    },
+    {
+     "id": "pct50",
+     "name": "Halfway There",
+     "kind": "BasePercent",
+     "threshold": 50,
+     "reward": {
+      "credits": 300,
+      "eventTickets": 1,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 60
+     }
+    },
+    {
+     "id": "pct75",
+     "name": "75% Collected",
+     "kind": "BasePercent",
+     "threshold": 75,
+     "reward": {
+      "credits": 450,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-leather"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 80
+     }
+    },
+    {
+     "id": "vintage-complete",
+     "name": "Vintage Set Restored",
+     "kind": "AllBase",
+     "reward": {
+      "credits": 800,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "bg-vintage-hobby-shop",
+       "title-vintage-curator"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 250
+     }
+    }
+   ],
+   "universeId": "aetherfall"
+  }
+ ],
+ "products": [
+  {
+   "id": "fh26-pack",
+   "name": "Fieldhouse 2026 Hobby Pack",
+   "brandId": "fieldhouse",
+   "setId": "fh26",
+   "type": "Pack",
+   "priceCredits": 120,
+   "isVintage": false,
+   "artKey": "fh26-pack",
+   "description": "6 cards. One rookie or parallel per pack.",
+   "slots": [
+    {
+     "count": 4,
+     "options": [
+      {
+       "weight": 70,
+       "rarities": [
+        "Common"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 30,
+       "rarities": [
+        "Uncommon"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 75,
+       "rarities": [
+        "Rare"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 20,
+       "rarities": [
+        "SuperRare"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 5,
+       "rarities": [
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 70,
+       "rarities": [
+        "Common",
+        "Uncommon"
+       ],
+       "rookieOnly": true,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 22,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "silver"
+      },
+      {
+       "weight": 7.5,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "gold50"
+      },
+      {
+       "weight": 0.5,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "black1"
+      }
+     ]
+    }
+   ],
+   "minCondition": 7.0,
+   "maxCondition": 10.0
+  },
+  {
+   "id": "fh26-box",
+   "name": "Fieldhouse 2026 Hobby Box",
+   "brandId": "fieldhouse",
+   "setId": "fh26",
+   "type": "HobbyBox",
+   "priceCredits": 1300,
+   "isVintage": false,
+   "artKey": "fh26-box",
+   "description": "",
+   "containsProductId": "fh26-pack",
+   "containsCount": 12
+  },
+  {
+   "id": "apex26-pack",
+   "name": "Apex Diamond 2026 Pack",
+   "brandId": "apex-diamond",
+   "setId": "apex26",
+   "type": "Pack",
+   "priceCredits": 450,
+   "isVintage": false,
+   "artKey": "apex26-pack",
+   "description": "4 cards with one autograph or numbered refractor.",
+   "slots": [
+    {
+     "count": 3,
+     "options": [
+      {
+       "weight": 60,
+       "rarities": [
+        "Common"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 40,
+       "rarities": [
+        "Uncommon",
+        "Rare"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 55,
+       "rarities": [
+        "SuperRare",
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": true,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 30,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "gold25"
+      },
+      {
+       "weight": 12,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "red10"
+      },
+      {
+       "weight": 3,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "superfractor1"
+      }
+     ]
+    }
+   ],
+   "minCondition": 8.0,
+   "maxCondition": 10.0
+  },
+  {
+   "id": "apex26-box",
+   "name": "Apex Diamond 2026 Hobby Box",
+   "brandId": "apex-diamond",
+   "setId": "apex26",
+   "type": "HobbyBox",
+   "priceCredits": 1700,
+   "isVintage": false,
+   "artKey": "apex26-box",
+   "description": "",
+   "containsProductId": "apex26-pack",
+   "containsCount": 4
+  },
+  {
+   "id": "hl94-wax",
+   "name": "Heritage Lane 1994 Wax Pack",
+   "brandId": "heritage-lane",
+   "setId": "hl94",
+   "type": "Pack",
+   "priceCredits": 300,
+   "isVintage": true,
+   "artKey": "hl94-wax",
+   "description": "Discontinued 1994 wax. Gum stain not included.",
+   "slots": [
+    {
+     "count": 5,
+     "options": [
+      {
+       "weight": 65,
+       "rarities": [
+        "Common"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 25,
+       "rarities": [
+        "Uncommon"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 10,
+       "rarities": [
+        "Rare",
+        "SuperRare",
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 85,
+       "rarities": [
+        "Common",
+        "Uncommon"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 15,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "foil94"
+      }
+     ]
+    }
+   ],
+   "minCondition": 3.0,
+   "maxCondition": 8.5
+  },
+  {
+   "id": "hl94-box",
+   "name": "Heritage Lane 1994 Wax Box",
+   "brandId": "heritage-lane",
+   "setId": "hl94",
+   "type": "Box",
+   "priceCredits": 3200,
+   "isVintage": true,
+   "artKey": "hl94-box",
+   "description": "",
+   "containsProductId": "hl94-wax",
+   "containsCount": 12
+  },
+  {
+   "id": "fhr26-pack",
+   "name": "Rising Rookies Blaster Pack",
+   "brandId": "fieldhouse",
+   "setId": "fhr26",
+   "type": "Pack",
+   "priceCredits": 160,
+   "isVintage": false,
+   "artKey": "fhr26-pack",
+   "description": "5 rookies including one parallel.",
+   "slots": [
+    {
+     "count": 4,
+     "options": [
+      {
+       "weight": 80,
+       "rarities": [
+        "Common",
+        "Uncommon"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 20,
+       "rarities": [
+        "Rare",
+        "SuperRare",
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 80,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "silver"
+      },
+      {
+       "weight": 20,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "gold50"
+      }
+     ]
+    }
+   ],
+   "minCondition": 7.0,
+   "maxCondition": 10.0
+  },
+  {
+   "id": "aeth-booster",
+   "name": "Aetherfall Booster",
+   "brandId": "mythforge",
+   "setId": "aeth",
+   "type": "Pack",
+   "priceCredits": 100,
+   "isVintage": false,
+   "artKey": "aeth-booster",
+   "description": "8 cards with a guaranteed holo, alternate art or Prismatic.",
+   "slots": [
+    {
+     "count": 6,
+     "options": [
+      {
+       "weight": 65,
+       "rarities": [
+        "Common"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 35,
+       "rarities": [
+        "Uncommon"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 70,
+       "rarities": [
+        "Rare"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 22,
+       "rarities": [
+        "SuperRare"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 8,
+       "rarities": [
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 68,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "holo"
+      },
+      {
+       "weight": 20,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": true
+      },
+      {
+       "weight": 11.5,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "prismatic99"
+      },
+      {
+       "weight": 0.5,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "mythic1"
+      }
+     ]
+    }
+   ],
+   "minCondition": 7.0,
+   "maxCondition": 10.0
+  },
+  {
+   "id": "aeth-box",
+   "name": "Aetherfall Booster Box",
+   "brandId": "mythforge",
+   "setId": "aeth",
+   "type": "Box",
+   "priceCredits": 2200,
+   "isVintage": false,
+   "artKey": "aeth-box",
+   "description": "",
+   "containsProductId": "aeth-booster",
+   "containsCount": 24
+  },
+  {
+   "id": "nova-booster",
+   "name": "Nova Reach Booster",
+   "brandId": "starbound",
+   "setId": "nova",
+   "type": "Pack",
+   "priceCredits": 110,
+   "isVintage": false,
+   "artKey": "nova-booster",
+   "description": "",
+   "slots": [
+    {
+     "count": 6,
+     "options": [
+      {
+       "weight": 65,
+       "rarities": [
+        "Common"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 35,
+       "rarities": [
+        "Uncommon"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 75,
+       "rarities": [
+        "Rare"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 20,
+       "rarities": [
+        "SuperRare"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 5,
+       "rarities": [
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 75,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "holo"
+      },
+      {
+       "weight": 18,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": true
+      },
+      {
+       "weight": 7,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "starlight25"
+      }
+     ]
+    }
+   ],
+   "minCondition": 7.0,
+   "maxCondition": 10.0
+  },
+  {
+   "id": "nova-tin",
+   "name": "Nova Reach Collector Tin",
+   "brandId": "starbound",
+   "setId": "nova",
+   "type": "Tin",
+   "priceCredits": 500,
+   "isVintage": false,
+   "artKey": "nova-tin",
+   "description": "",
+   "containsProductId": "nova-booster",
+   "containsCount": 5
+  },
+  {
+   "id": "mfo01-booster",
+   "name": "Mythforge Origins 1st Print Booster",
+   "brandId": "mythforge",
+   "setId": "mfo01",
+   "type": "Pack",
+   "priceCredits": 650,
+   "isVintage": true,
+   "artKey": "mfo01-booster",
+   "description": "Sealed since 2001.",
+   "slots": [
+    {
+     "count": 7,
+     "options": [
+      {
+       "weight": 60,
+       "rarities": [
+        "Common"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 30,
+       "rarities": [
+        "Uncommon"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 10,
+       "rarities": [
+        "Rare",
+        "SuperRare",
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      }
+     ]
+    },
+    {
+     "count": 1,
+     "options": [
+      {
+       "weight": 70,
+       "rarities": [
+        "Rare",
+        "SuperRare",
+        "Legendary"
+       ],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false
+      },
+      {
+       "weight": 30,
+       "rarities": [],
+       "rookieOnly": false,
+       "autographOnly": false,
+       "alternateArtOnly": false,
+       "parallelId": "first-edition"
+      }
+     ]
+    }
+   ],
+   "minCondition": 4.0,
+   "maxCondition": 9.0
+  }
+ ],
+ "npcs": [
+  {
+   "id": "gus-tan",
+   "name": "Gus Tanaka",
+   "persona": "Old-school dealer who remembers every price guide.",
+   "specialty": "Vintage sports",
+   "sellMarkup": 1.25,
+   "buyFactor": 0.65,
+   "focusCategory": "Sports",
+   "dealsVintage": true
+  },
+  {
+   "id": "rosa-vale",
+   "name": "Rosa Vale",
+   "persona": "Modern breaker with an eye for rookies.",
+   "specialty": "Modern sports",
+   "sellMarkup": 1.12,
+   "buyFactor": 0.72,
+   "focusCategory": "Sports",
+   "dealsVintage": false
+  },
+  {
+   "id": "milo-crane",
+   "name": "Milo Crane",
+   "persona": "Runs the local game store and judges weekend tournaments.",
+   "specialty": "TCG singles",
+   "sellMarkup": 1.1,
+   "buyFactor": 0.7,
+   "focusCategory": "Tcg",
+   "dealsVintage": false
+  },
+  {
+   "id": "ada-quill",
+   "name": "Ada Quill",
+   "persona": "Collector-archivist of first prints.",
+   "specialty": "Vintage TCG",
+   "sellMarkup": 1.3,
+   "buyFactor": 0.68,
+   "focusCategory": "Tcg",
+   "dealsVintage": true
+  },
+  {
+   "id": "vic-sterling",
+   "name": "Victor Sterling",
+   "persona": "High-end consignment broker. Only the best.",
+   "specialty": "Premium and graded",
+   "sellMarkup": 1.35,
+   "buyFactor": 0.78,
+   "dealsVintage": true
+  }
+ ],
+ "cosmetics": [
+  {
+   "id": "frame-classic",
+   "name": "Classic Frame",
+   "kind": "CardFrame",
+   "colorHex": "#E6E6E6",
+   "accentHex": "#9A9A9A",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "frame-gold",
+   "name": "Gilded Frame",
+   "kind": "CardFrame",
+   "colorHex": "#E3B341",
+   "accentHex": "#7A5C12",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "frame-set-master",
+   "name": "Set Master Frame",
+   "kind": "CardFrame",
+   "colorHex": "#2D2D2D",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "frame-expo-2026",
+   "name": "Expo 2026 Frame",
+   "kind": "CardFrame",
+   "colorHex": "#FF7A1A",
+   "accentHex": "#1C1C1C",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "frame-runic",
+   "name": "Runic Frame",
+   "kind": "CardFrame",
+   "colorHex": "#3D2A5C",
+   "accentHex": "#A6E3F0",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "frame-vintage",
+   "name": "Woodgrain Frame",
+   "kind": "CardFrame",
+   "colorHex": "#6B4A2B",
+   "accentHex": "#D9B98C",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "bg-modern-luxury",
+   "name": "Modern Luxury",
+   "kind": "ShowcaseBackground",
+   "colorHex": "#1B1D22",
+   "accentHex": "#C9A227",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "bg-vintage-hobby-shop",
+   "name": "Vintage Hobby Shop",
+   "kind": "ShowcaseBackground",
+   "colorHex": "#4A3424",
+   "accentHex": "#E8C99B",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "bg-dark-vault",
+   "name": "Dark Collector Vault",
+   "kind": "ShowcaseBackground",
+   "colorHex": "#0B0E14",
+   "accentHex": "#3A7BD5",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "bg-fantasy-gallery",
+   "name": "Fantasy Gallery",
+   "kind": "ShowcaseBackground",
+   "colorHex": "#22163A",
+   "accentHex": "#B57EDC",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "bg-scifi-archive",
+   "name": "Sci-Fi Archive",
+   "kind": "ShowcaseBackground",
+   "colorHex": "#0D1B2A",
+   "accentHex": "#2F80ED",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "bg-minimalist",
+   "name": "Minimalist Showroom",
+   "kind": "ShowcaseBackground",
+   "colorHex": "#EEEEEE",
+   "accentHex": "#222222",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "binder-standard",
+   "name": "Standard Binder",
+   "kind": "BinderTheme",
+   "colorHex": "#2B2B2B",
+   "accentHex": "#666666",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "binder-leather",
+   "name": "Leather Binder",
+   "kind": "BinderTheme",
+   "colorHex": "#5A3A22",
+   "accentHex": "#C9A227",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "binder-expo",
+   "name": "Expo Binder",
+   "kind": "BinderTheme",
+   "colorHex": "#FF7A1A",
+   "accentHex": "#222222",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "ped-basic",
+   "name": "Acrylic Stand",
+   "kind": "DisplayPedestal",
+   "colorHex": "#CCCCCC",
+   "accentHex": "#FFFFFF",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "ped-marble",
+   "name": "Marble Pedestal",
+   "kind": "DisplayPedestal",
+   "colorHex": "#E8E4DC",
+   "accentHex": "#9C9486",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "ped-velvet",
+   "name": "Velvet Plinth",
+   "kind": "DisplayPedestal",
+   "colorHex": "#5C1A2B",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "ped-crystal",
+   "name": "Crystal Pedestal",
+   "kind": "DisplayPedestal",
+   "colorHex": "#BDE6F5",
+   "accentHex": "#FFFFFF",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "shelf-oak",
+   "name": "Oak Shelf",
+   "kind": "ShelfStyle",
+   "colorHex": "#7A5230",
+   "accentHex": "#4A3020",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "shelf-glass",
+   "name": "Glass Shelf",
+   "kind": "ShelfStyle",
+   "colorHex": "#9FD3E6",
+   "accentHex": "#FFFFFF",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "wall-plaster",
+   "name": "Plaster Wall",
+   "kind": "WallStyle",
+   "colorHex": "#2A2C31",
+   "accentHex": "#3A3D44",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "wall-walnut",
+   "name": "Walnut Paneling",
+   "kind": "WallStyle",
+   "colorHex": "#4B3221",
+   "accentHex": "#6B4A2B",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "fx-spotlight",
+   "name": "Spotlight",
+   "kind": "DecorativeEffect",
+   "colorHex": "#FFF6D5",
+   "accentHex": "#FFFFFF",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "fx-sparkle",
+   "name": "Foil Sparkle",
+   "kind": "DecorativeEffect",
+   "colorHex": "#FFFFFF",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-newcomer",
+   "name": "Newcomer",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": true,
+   "description": ""
+  },
+  {
+   "id": "title-rookie-hunter",
+   "name": "Rookie Hunter",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-set-master",
+   "name": "Set Master",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-vintage-curator",
+   "name": "Vintage Curator",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-convention-regular",
+   "name": "Convention Regular",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-one-of-one",
+   "name": "Keeper of the One",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-grader",
+   "name": "Slab Specialist",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-trader",
+   "name": "Deal Maker",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  },
+  {
+   "id": "title-release-tracker",
+   "name": "Release Day Regular",
+   "kind": "ProfileTitle",
+   "colorHex": "#333333",
+   "accentHex": "#E3B341",
+   "unlockedByDefault": false,
+   "description": ""
+  }
+ ],
+ "releases": [
+  {
+   "id": "rel-hl94",
+   "name": "Heritage Lane 1994 Original Run",
+   "brandId": "heritage-lane",
+   "category": "SportsFlagship",
+   "setId": "hl94",
+   "description": "The 1994 run, long out of print. Leftover wax trades on the vintage market.",
+   "artKey": "rel-hl94",
+   "announceAt": 0,
+   "releaseAt": 86400,
+   "retireAt": 259200,
+   "archiveAt": 432000,
+   "products": [
+    {
+     "productId": "hl94-wax",
+     "initialStock": 20,
+     "vintageAllocationOnRetire": 6
+    },
+    {
+     "productId": "hl94-box",
+     "initialStock": 2,
+     "vintageAllocationOnRetire": 1
+    }
+   ],
+   "themes": [
+    "Vintage",
+    "Baseball"
+   ],
+   "chaseTemplateIds": [
+    "hl94-012"
+   ],
+   "eventIds": []
+  },
+  {
+   "id": "rel-fh26",
+   "name": "Fieldhouse 2026 Hoops",
+   "brandId": "fieldhouse",
+   "category": "SportsFlagship",
+   "setId": "fh26",
+   "description": "The flagship hoops release of the season.",
+   "artKey": "rel-fh26",
+   "announceAt": 0,
+   "releaseAt": 1209600,
+   "retireAt": 12960000,
+   "archiveAt": 17280000,
+   "products": [
+    {
+     "productId": "fh26-pack",
+     "initialStock": 400,
+     "vintageAllocationOnRetire": 20
+    },
+    {
+     "productId": "fh26-box",
+     "initialStock": 40,
+     "vintageAllocationOnRetire": 4
+    }
+   ],
+   "themes": [
+    "Basketball",
+    "Rookies"
+   ],
+   "chaseTemplateIds": [
+    "fh26-020",
+    "fh26-018"
+   ],
+   "eventIds": [
+    "cs-sports-expo"
+   ]
+  },
+  {
+   "id": "rel-aeth",
+   "name": "Mythforge: Aetherfall",
+   "brandId": "mythforge",
+   "category": "TcgExpansion",
+   "setId": "aeth",
+   "description": "Storm dragons, rune wardens and alternate-art chase cards.",
+   "artKey": "rel-aeth",
+   "announceAt": 864000,
+   "releaseAt": 2592000,
+   "retireAt": 13824000,
+   "archiveAt": 19008000,
+   "products": [
+    {
+     "productId": "aeth-booster",
+     "initialStock": 500,
+     "vintageAllocationOnRetire": 25
+    },
+    {
+     "productId": "aeth-box",
+     "initialStock": 30,
+     "vintageAllocationOnRetire": 3
+    }
+   ],
+   "themes": [
+    "Fantasy",
+    "Dragons"
+   ],
+   "chaseTemplateIds": [
+    "aeth-020",
+    "aeth-016"
+   ],
+   "eventIds": [
+    "cs-tcg-convention"
+   ]
+  },
+  {
+   "id": "rel-mfo-anniv",
+   "name": "Mythforge 25th Anniversary Restock",
+   "brandId": "mythforge",
+   "category": "Anniversary",
+   "setId": "mfo01",
+   "description": "A tiny cache of 2001 first-print boosters, found in a warehouse.",
+   "artKey": "rel-mfo-anniv",
+   "announceAt": 3024000,
+   "releaseAt": 3456000,
+   "retireAt": 6480000,
+   "archiveAt": 10368000,
+   "products": [
+    {
+     "productId": "mfo01-booster",
+     "initialStock": 24,
+     "vintageAllocationOnRetire": 8
+    }
+   ],
+   "themes": [
+    "Vintage",
+    "Anniversary"
+   ],
+   "chaseTemplateIds": [
+    "mfo01-012"
+   ],
+   "eventIds": [
+    "cs-vintage-fair"
+   ]
+  },
+  {
+   "id": "rel-fhr26",
+   "name": "Fieldhouse Rising Rookies",
+   "brandId": "fieldhouse",
+   "category": "SportsRookie",
+   "setId": "fhr26",
+   "description": "A short-print, rookie-only release with a two-week window.",
+   "artKey": "rel-fhr26",
+   "announceAt": 3456000,
+   "releaseAt": 3974400,
+   "retireAt": 5184000,
+   "archiveAt": 7776000,
+   "products": [
+    {
+     "productId": "fhr26-pack",
+     "initialStock": 60,
+     "vintageAllocationOnRetire": 10
+    }
+   ],
+   "themes": [
+    "Rookies"
+   ],
+   "chaseTemplateIds": [
+    "fhr26-010"
+   ],
+   "eventIds": []
+  },
+  {
+   "id": "rel-apex26",
+   "name": "Apex Diamond 2026 Baseball",
+   "brandId": "apex-diamond",
+   "category": "SportsPremium",
+   "setId": "apex26",
+   "description": "On-card autographs and refractors numbered to 1.",
+   "artKey": "rel-apex26",
+   "announceAt": 3801600,
+   "releaseAt": 4492800,
+   "retireAt": 15552000,
+   "archiveAt": 20736000,
+   "products": [
+    {
+     "productId": "apex26-pack",
+     "initialStock": 150,
+     "vintageAllocationOnRetire": 10
+    },
+    {
+     "productId": "apex26-box",
+     "initialStock": 25,
+     "vintageAllocationOnRetire": 3
+    }
+   ],
+   "themes": [
+    "Baseball",
+    "Autographs"
+   ],
+   "chaseTemplateIds": [
+    "apex26-012",
+    "apex26-010"
+   ],
+   "eventIds": [
+    "cs-premium-showcase"
+   ]
+  },
+  {
+   "id": "rel-nova",
+   "name": "Starbound Saga: Nova Reach",
+   "brandId": "starbound",
+   "category": "TcgExpansion",
+   "setId": "nova",
+   "description": "A new frontier for TCG collectors.",
+   "artKey": "rel-nova",
+   "announceAt": 3974400,
+   "releaseAt": 5356800,
+   "retireAt": 17280000,
+   "archiveAt": 22464000,
+   "products": [
+    {
+     "productId": "nova-booster",
+     "initialStock": 450,
+     "vintageAllocationOnRetire": 20
+    },
+    {
+     "productId": "nova-tin",
+     "initialStock": 60,
+     "vintageAllocationOnRetire": 5
+    }
+   ],
+   "themes": [
+    "Sci-Fi"
+   ],
+   "chaseTemplateIds": [
+    "nova-016",
+    "nova-015"
+   ],
+   "eventIds": []
+  },
+  {
+   "id": "rel-aeth-alt",
+   "name": "Aetherfall Alternate Art Collection",
+   "brandId": "mythforge",
+   "category": "AlternateArtCollection",
+   "setId": "aeth",
+   "description": "A limited second wave focused on alternate-art pulls.",
+   "artKey": "rel-aeth-alt",
+   "announceAt": 4320000,
+   "releaseAt": 6048000,
+   "retireAt": 8467200,
+   "archiveAt": 12096000,
+   "products": [
+    {
+     "productId": "aeth-booster",
+     "initialStock": 120,
+     "vintageAllocationOnRetire": 0
+    }
+   ],
+   "themes": [
+    "Alternate Art"
+   ],
+   "chaseTemplateIds": [
+    "aeth-016",
+    "aeth-018",
+    "aeth-020"
+   ],
+   "eventIds": []
+  },
+  {
+   "id": "rel-hl94-restock",
+   "name": "Heritage Lane Vintage Restock",
+   "brandId": "heritage-lane",
+   "category": "VintageRestock",
+   "setId": "hl94",
+   "description": "A dealer estate sale surfaces more 1994 wax.",
+   "artKey": "rel-hl94-restock",
+   "announceAt": 4492800,
+   "releaseAt": 5011200,
+   "retireAt": 6220800,
+   "archiveAt": 8640000,
+   "products": [
+    {
+     "productId": "hl94-wax",
+     "initialStock": 12,
+     "vintageAllocationOnRetire": 4
+    }
+   ],
+   "themes": [
+    "Vintage"
+   ],
+   "chaseTemplateIds": [],
+   "eventIds": []
+  },
+  {
+   "id": "rel-summer",
+   "name": "Summer Classic Seasonal Packs",
+   "brandId": "fieldhouse",
+   "category": "LimitedSeasonal",
+   "setId": "fh26",
+   "description": "Seasonal limited run of Fieldhouse 2026 packs.",
+   "artKey": "rel-summer",
+   "announceAt": 5184000,
+   "releaseAt": 6912000,
+   "retireAt": 8121600,
+   "archiveAt": 11232000,
+   "products": [
+    {
+     "productId": "fh26-pack",
+     "initialStock": 80,
+     "vintageAllocationOnRetire": 0
+    }
+   ],
+   "themes": [
+    "Seasonal"
+   ],
+   "chaseTemplateIds": [],
+   "eventIds": []
+  },
+  {
+   "id": "rel-show-expo",
+   "name": "Sports Card Expo Weekend",
+   "brandId": "fieldhouse",
+   "category": "CardShowEvent",
+   "setId": "fh26",
+   "description": "The weekly Sports Card Expo opens its doors.",
+   "artKey": "rel-show-expo",
+   "announceAt": 3456000,
+   "releaseAt": 3888000,
+   "retireAt": 0,
+   "archiveAt": 0,
+   "products": [],
+   "themes": [],
+   "chaseTemplateIds": [],
+   "eventIds": [
+    "cs-sports-expo"
+   ]
+  }
+ ],
+ "cardShows": [
+  {
+   "id": "cs-daily-meetup",
+   "name": "Daily Collector Meetup",
+   "category": "DailyMiniEvent",
+   "artKey": "cs-daily",
+   "description": "A small daily swap meet at the hobby shop. Quick goals, quick rewards.",
+   "schedule": {
+    "kind": "Daily",
+    "firstStartAt": 0,
+    "durationSeconds": 86400
+   },
+   "featuredBrandIds": [],
+   "featuredSetIds": [],
+   "vendors": [
+    {
+     "id": "meetup-milo",
+     "npcId": "milo-crane",
+     "boothName": "Milo's Card Table",
+     "description": "Loose packs at a friendly price.",
+     "stock": [
+      {
+       "id": "meetup-aeth",
+       "quantity": 3,
+       "priceCredits": 95,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "aeth-booster"
+      },
+      {
+       "id": "meetup-fh",
+       "quantity": 3,
+       "priceCredits": 110,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "fh26-pack"
+      }
+     ]
+    }
+   ],
+   "challenges": [
+    {
+     "id": "open2",
+     "description": "Open 2 packs",
+     "action": "PackOpened",
+     "count": 2,
+     "points": 10,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    },
+    {
+     "id": "acquire8",
+     "description": "Pull or buy 8 cards",
+     "action": "CardAcquired",
+     "count": 8,
+     "points": 10,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "id": "meetup-credits",
+     "name": "150 credits",
+     "costPoints": 20,
+     "reward": {
+      "credits": 150,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    }
+   ],
+   "completionReward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 20
+   },
+   "pricing": {
+    "vendorMarkup": 1.0,
+    "featuredSetDiscount": 1.0
+   }
+  },
+  {
+   "id": "cs-sports-expo",
+   "name": "Sports Card Expo",
+   "category": "SportsCardExpo",
+   "artKey": "cs-sports-expo",
+   "description": "Three days of sports-card dealers, rookie hunts and the Expo Exclusive parallel.",
+   "schedule": {
+    "kind": "Weekly",
+    "firstStartAt": 3888000,
+    "durationSeconds": 259200
+   },
+   "featuredBrandIds": [
+    "fieldhouse",
+    "apex-diamond"
+   ],
+   "featuredSetIds": [
+    "fh26",
+    "fhr26"
+   ],
+   "vendors": [
+    {
+     "id": "expo-rosa",
+     "npcId": "rosa-vale",
+     "boothName": "Rosa's Rookie Row",
+     "description": "Fresh hobby boxes and rookie singles.",
+     "stock": [
+      {
+       "id": "expo-fh-box",
+       "quantity": 2,
+       "priceCredits": 1150,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "fh26-box"
+      },
+      {
+       "id": "expo-fh-pack",
+       "quantity": 10,
+       "priceCredits": 105,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "fh26-pack"
+      },
+      {
+       "id": "expo-rookie-single",
+       "quantity": 2,
+       "priceCredits": 260,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "templateId": "fh26-018"
+      },
+      {
+       "id": "expo-park-gold",
+       "quantity": 1,
+       "priceCredits": 2400,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "templateId": "fh26-018",
+       "parallelId": "gold50"
+      }
+     ]
+    },
+    {
+     "id": "expo-gus",
+     "npcId": "gus-tan",
+     "boothName": "Gus's Vintage Corner",
+     "description": "1994 wax and graded vintage.",
+     "stock": [
+      {
+       "id": "expo-hl-wax",
+       "quantity": 2,
+       "priceCredits": 420,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "hl94-wax"
+      },
+      {
+       "id": "expo-hl-graded",
+       "quantity": 1,
+       "priceCredits": 1600,
+       "priceTickets": 0,
+       "condition": 8.0,
+       "templateId": "hl94-012",
+       "grade": 8.0
+      }
+     ]
+    }
+   ],
+   "challenges": [
+    {
+     "id": "open5",
+     "description": "Open 5 packs from Fieldhouse 2026",
+     "action": "PackOpened",
+     "count": 5,
+     "points": 20,
+     "filter": {
+      "setIds": [
+       "fh26"
+      ],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    },
+    {
+     "id": "rookies3",
+     "description": "Acquire 3 different rookie cards",
+     "action": "CardAcquired",
+     "count": 3,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": true,
+      "distinctBrands": false,
+      "featuredOnly": false,
+      "rookie": true
+     }
+    },
+    {
+     "id": "grade1",
+     "description": "Grade an eligible card",
+     "action": "CardGraded",
+     "count": 1,
+     "points": 25,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    },
+    {
+     "id": "trade1",
+     "description": "Complete an NPC trade",
+     "action": "TradeCompleted",
+     "count": 1,
+     "points": 25,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    },
+    {
+     "id": "brands2",
+     "description": "Acquire cards from 2 featured brands",
+     "action": "CardAcquired",
+     "count": 2,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": true,
+      "featuredOnly": true
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "id": "expo-frame",
+     "name": "Expo 2026 Frame",
+     "costPoints": 30,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "frame-expo-2026"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "expo-binder",
+     "name": "Expo Binder Theme",
+     "costPoints": 20,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "binder-expo"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "expo-tickets",
+     "name": "2 Event Tickets",
+     "costPoints": 25,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 2,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "expo-exclusive",
+     "name": "Expo Exclusive Mara Voss /25",
+     "costPoints": 60,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [
+       {
+        "templateId": "fh26-001",
+        "tradable": true,
+        "condition": 10.0,
+        "parallelId": "expo25",
+        "note": "Expo Exclusive"
+       }
+      ],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "expo-commemorative",
+     "name": "Commemorative Expo Card",
+     "costPoints": 15,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [
+       {
+        "templateId": "fh26-002",
+        "tradable": false,
+        "condition": 10.0,
+        "note": "Commemorative, non-tradable"
+       }
+      ],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    }
+   ],
+   "completionReward": {
+    "credits": 500,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "title-convention-regular"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 100
+   },
+   "pricing": {
+    "vendorMarkup": 1.0,
+    "featuredSetDiscount": 0.9
+   }
+  },
+  {
+   "id": "cs-tcg-convention",
+   "name": "TCG Collector Convention",
+   "category": "TcgCollectorConvention",
+   "artKey": "cs-tcg",
+   "description": "Featured universes, alternate-art showcases and themed set challenges.",
+   "schedule": {
+    "kind": "Monthly",
+    "firstStartAt": 4147200,
+    "durationSeconds": 345600
+   },
+   "featuredBrandIds": [
+    "mythforge",
+    "starbound"
+   ],
+   "featuredSetIds": [
+    "aeth",
+    "nova"
+   ],
+   "vendors": [
+    {
+     "id": "con-milo",
+     "npcId": "milo-crane",
+     "boothName": "Crane's Game Vault",
+     "description": "Boosters and alternate-art singles.",
+     "stock": [
+      {
+       "id": "con-aeth-box",
+       "quantity": 1,
+       "priceCredits": 2000,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "aeth-box"
+      },
+      {
+       "id": "con-aeth-booster",
+       "quantity": 12,
+       "priceCredits": 95,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "aeth-booster"
+      },
+      {
+       "id": "con-alt-vael",
+       "quantity": 1,
+       "priceCredits": 900,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "templateId": "aeth-016"
+      },
+      {
+       "id": "con-alt-isolde",
+       "quantity": 1,
+       "priceCredits": 950,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "templateId": "aeth-018"
+      }
+     ]
+    },
+    {
+     "id": "con-ada",
+     "npcId": "ada-quill",
+     "boothName": "Quill & Archive",
+     "description": "First prints from 2001.",
+     "stock": [
+      {
+       "id": "con-mfo",
+       "quantity": 2,
+       "priceCredits": 900,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "mfo01-booster"
+      },
+      {
+       "id": "con-mythic-promo",
+       "quantity": 1,
+       "priceCredits": 0,
+       "priceTickets": 3,
+       "condition": 9.0,
+       "templateId": "aeth-001",
+       "parallelId": "prismatic99"
+      }
+     ]
+    }
+   ],
+   "challenges": [
+    {
+     "id": "acq5",
+     "description": "Acquire 5 different cards from featured sets",
+     "action": "CardAcquired",
+     "count": 5,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": true,
+      "distinctBrands": false,
+      "featuredOnly": true
+     }
+    },
+    {
+     "id": "open3",
+     "description": "Open 3 featured boosters",
+     "action": "PackOpened",
+     "count": 3,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": true
+     }
+    },
+    {
+     "id": "buy1",
+     "description": "Purchase a sealed product",
+     "action": "ProductPurchased",
+     "count": 1,
+     "points": 15,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    },
+    {
+     "id": "milestone1",
+     "description": "Reach a set milestone",
+     "action": "SetMilestoneReached",
+     "count": 1,
+     "points": 25,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false,
+      "category": "Tcg"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "id": "con-gallery",
+     "name": "Fantasy Gallery Showcase",
+     "costPoints": 40,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "bg-fantasy-gallery"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "con-runic",
+     "name": "Runic Frame",
+     "costPoints": 25,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "frame-runic"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "con-archive",
+     "name": "Sci-Fi Archive Showcase",
+     "costPoints": 40,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "bg-scifi-archive"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "con-promo",
+     "name": "Convention Promo: Aether Phoenix",
+     "costPoints": 30,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [
+       {
+        "templateId": "aeth-008",
+        "tradable": false,
+        "condition": 10.0,
+        "parallelId": "holo",
+        "note": "Convention promo"
+       }
+      ],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    }
+   ],
+   "completionReward": {
+    "credits": 600,
+    "eventTickets": 1,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 120
+   },
+   "pricing": {
+    "vendorMarkup": 1.0,
+    "featuredSetDiscount": 0.9
+   }
+  },
+  {
+   "id": "cs-vintage-fair",
+   "name": "Vintage Card Fair",
+   "category": "VintageCardFair",
+   "artKey": "cs-vintage",
+   "description": "Discontinued wax, historical TCG boosters and graded vintage in limited quantities.",
+   "schedule": {
+    "kind": "Monthly",
+    "firstStartAt": 4752000,
+    "durationSeconds": 259200
+   },
+   "featuredBrandIds": [
+    "heritage-lane",
+    "mythforge"
+   ],
+   "featuredSetIds": [
+    "hl94",
+    "mfo01"
+   ],
+   "vendors": [
+    {
+     "id": "fair-gus",
+     "npcId": "gus-tan",
+     "boothName": "Tanaka Collectibles",
+     "description": "Wax boxes from 1994.",
+     "stock": [
+      {
+       "id": "fair-hl-box",
+       "quantity": 1,
+       "priceCredits": 3400,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "hl94-box"
+      },
+      {
+       "id": "fair-hl-wax",
+       "quantity": 3,
+       "priceCredits": 320,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "hl94-wax"
+      },
+      {
+       "id": "fair-hl-graded",
+       "quantity": 1,
+       "priceCredits": 1200,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "templateId": "hl94-004",
+       "grade": 9.0
+      }
+     ]
+    },
+    {
+     "id": "fair-ada",
+     "npcId": "ada-quill",
+     "boothName": "Quill & Archive",
+     "description": "First prints, sealed.",
+     "stock": [
+      {
+       "id": "fair-mfo",
+       "quantity": 3,
+       "priceCredits": 700,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "productId": "mfo01-booster"
+      },
+      {
+       "id": "fair-mfo-graded",
+       "quantity": 1,
+       "priceCredits": 4200,
+       "priceTickets": 0,
+       "condition": 8.5,
+       "templateId": "mfo01-012",
+       "grade": 8.5,
+       "requiresUnlockId": "vintage-vip"
+      }
+     ]
+    }
+   ],
+   "challenges": [
+    {
+     "id": "buyvintage",
+     "description": "Purchase one vintage product",
+     "action": "ProductPurchased",
+     "count": 1,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false,
+      "vintage": true
+     }
+    },
+    {
+     "id": "openvintage",
+     "description": "Open a vintage pack",
+     "action": "PackOpened",
+     "count": 1,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false,
+      "vintage": true
+     }
+    },
+    {
+     "id": "vintage3",
+     "description": "Acquire 3 different vintage cards",
+     "action": "CardAcquired",
+     "count": 3,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": true,
+      "distinctBrands": false,
+      "featuredOnly": false,
+      "vintage": true
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "id": "fair-shop",
+     "name": "Vintage Hobby Shop Showcase",
+     "costPoints": 30,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "bg-vintage-hobby-shop"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "fair-frame",
+     "name": "Woodgrain Frame",
+     "costPoints": 20,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "frame-vintage"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "fair-vip",
+     "name": "Vintage VIP Access",
+     "costPoints": 20,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [],
+      "cards": [],
+      "unlockListingIds": [
+       "vintage-vip"
+      ],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    }
+   ],
+   "completionReward": {
+    "credits": 400,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "wall-walnut"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 100
+   },
+   "pricing": {
+    "vendorMarkup": 1.0,
+    "featuredSetDiscount": 1.0
+   }
+  },
+  {
+   "id": "cs-premium-showcase",
+   "name": "Premium Collector Showcase",
+   "category": "PremiumCollectorShowcase",
+   "artKey": "cs-premium",
+   "description": "High-end numbered parallels, autographs and rare graded cards. Strictly optional luxury.",
+   "schedule": {
+    "kind": "Monthly",
+    "firstStartAt": 5184000,
+    "durationSeconds": 172800
+   },
+   "featuredBrandIds": [
+    "apex-diamond"
+   ],
+   "featuredSetIds": [
+    "apex26"
+   ],
+   "vendors": [
+    {
+     "id": "prem-vic",
+     "npcId": "vic-sterling",
+     "boothName": "Sterling Consignment",
+     "description": "Autographs and refractors.",
+     "stock": [
+      {
+       "id": "prem-auto",
+       "quantity": 1,
+       "priceCredits": 5200,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "templateId": "apex26-010"
+      },
+      {
+       "id": "prem-red",
+       "quantity": 1,
+       "priceCredits": 6000,
+       "priceTickets": 0,
+       "condition": 9.0,
+       "templateId": "apex26-001",
+       "parallelId": "red10"
+      },
+      {
+       "id": "prem-graded",
+       "quantity": 1,
+       "priceCredits": 9500,
+       "priceTickets": 0,
+       "condition": 9.5,
+       "templateId": "apex26-012",
+       "grade": 9.5
+      },
+      {
+       "id": "prem-ticket-box",
+       "quantity": 1,
+       "priceCredits": 0,
+       "priceTickets": 4,
+       "condition": 9.0,
+       "productId": "apex26-box"
+      }
+     ]
+    }
+   ],
+   "challenges": [
+    {
+     "id": "serial1",
+     "description": "Acquire a serial-numbered card",
+     "action": "CardAcquired",
+     "count": 1,
+     "points": 25,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false,
+      "serialNumbered": true
+     }
+    },
+    {
+     "id": "grade1",
+     "description": "Grade an eligible card",
+     "action": "CardGraded",
+     "count": 1,
+     "points": 20,
+     "filter": {
+      "setIds": [],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    },
+    {
+     "id": "open-apex",
+     "description": "Open an Apex Diamond pack",
+     "action": "PackOpened",
+     "count": 1,
+     "points": 15,
+     "filter": {
+      "setIds": [
+       "apex26"
+      ],
+      "brandIds": [],
+      "distinctTemplates": false,
+      "distinctBrands": false,
+      "featuredOnly": false
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "id": "prem-velvet",
+     "name": "Velvet Plinth",
+     "costPoints": 25,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "ped-velvet"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "prem-title",
+     "name": "Slab Specialist Title",
+     "costPoints": 20,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "title-grader"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    },
+    {
+     "id": "prem-vault",
+     "name": "Dark Collector Vault",
+     "costPoints": 30,
+     "reward": {
+      "credits": 0,
+      "eventTickets": 0,
+      "cosmeticIds": [
+       "bg-dark-vault"
+      ],
+      "cards": [],
+      "unlockListingIds": [],
+      "showcaseSlots": 0,
+      "collectorXp": 0
+     }
+    }
+   ],
+   "completionReward": {
+    "credits": 750,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 150
+   },
+   "pricing": {
+    "vendorMarkup": 1.05,
+    "featuredSetDiscount": 1.0
+   }
+  }
+ ],
+ "achievements": [
+  {
+   "id": "ach-first-pack",
+   "name": "First Rip",
+   "description": "Open your first pack.",
+   "stat": "PacksOpened",
+   "threshold": 1,
+   "reward": {
+    "credits": 100,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 20
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-packs-50",
+   "name": "Pack Veteran",
+   "description": "Open 50 packs.",
+   "stat": "PacksOpened",
+   "threshold": 50,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "fx-sparkle"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 100
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-unique-25",
+   "name": "Growing Collection",
+   "description": "Own 25 different cards.",
+   "stat": "UniqueCardsAcquired",
+   "threshold": 25,
+   "reward": {
+    "credits": 200,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 40
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-unique-100",
+   "name": "Serious Collector",
+   "description": "Own 100 different cards.",
+   "stat": "UniqueCardsAcquired",
+   "threshold": 100,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "bg-minimalist"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 150
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-first-set",
+   "name": "Set Builder",
+   "description": "Complete your first set.",
+   "stat": "SetsCompleted",
+   "threshold": 1,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 2,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 100
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-sets-3",
+   "name": "Registry Regular",
+   "description": "Complete three sets.",
+   "stat": "SetsCompleted",
+   "threshold": 3,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "frame-gold"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 250
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-vintage-1",
+   "name": "Time Capsule",
+   "description": "Open a vintage product.",
+   "stat": "VintageProductsOpened",
+   "threshold": 1,
+   "reward": {
+    "credits": 150,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 30
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-vintage-5",
+   "name": "Wax Archaeologist",
+   "description": "Open 5 vintage products.",
+   "stat": "VintageProductsOpened",
+   "threshold": 5,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "title-vintage-curator"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 120
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-graded-1",
+   "name": "First Slab",
+   "description": "Grade a card.",
+   "stat": "CardsGraded",
+   "threshold": 1,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 30
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-graded-10",
+   "name": "Slab Stacker",
+   "description": "Grade 10 cards.",
+   "stat": "CardsGraded",
+   "threshold": 10,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "title-grader"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 150
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-trade-1",
+   "name": "Handshake Deal",
+   "description": "Complete an NPC trade.",
+   "stat": "NpcTradesCompleted",
+   "threshold": 1,
+   "reward": {
+    "credits": 100,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 30
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-trade-10",
+   "name": "Deal Maker",
+   "description": "Complete 10 NPC trades.",
+   "stat": "NpcTradesCompleted",
+   "threshold": 10,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "title-trader"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 150
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-show-1",
+   "name": "Show Floor",
+   "description": "Complete a card show.",
+   "stat": "CardShowsCompleted",
+   "threshold": 1,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 1,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 80
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-show-challenges-10",
+   "name": "Challenge Seeker",
+   "description": "Complete 10 card show challenges.",
+   "stat": "CardShowChallengesCompleted",
+   "threshold": 10,
+   "reward": {
+    "credits": 300,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 100
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-rare-1",
+   "name": "Big Hit",
+   "description": "Pull or buy a serial-numbered card.",
+   "stat": "RareCardsDiscovered",
+   "threshold": 1,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 50
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-first-one-of-one",
+   "name": "The One",
+   "description": "Own a genuine one-of-one.",
+   "stat": "OneOfOnesDiscovered",
+   "threshold": 1,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "title-one-of-one"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 300
+   },
+   "hidden": true
+  },
+  {
+   "id": "ach-release-3",
+   "name": "Release Day Regular",
+   "description": "Buy on release week for 3 releases.",
+   "stat": "ReleaseMilestones",
+   "threshold": 3,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "title-release-tracker"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 100
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-showcase-3",
+   "name": "Curator",
+   "description": "Unlock 3 showcase upgrades.",
+   "stat": "ShowcaseUpgradesUnlocked",
+   "threshold": 3,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "wall-walnut"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 80
+   },
+   "hidden": false
+  },
+  {
+   "id": "ach-history-1",
+   "name": "Storied Card",
+   "description": "Own a card that has passed through three owners.",
+   "stat": "HistoricalMilestones",
+   "threshold": 1,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 60
+   },
+   "hidden": false
+  }
+ ],
+ "collectorRanks": [
+  {
+   "level": 1,
+   "name": "Newcomer",
+   "xpRequired": 0,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 2,
+   "name": "Hobbyist",
+   "xpRequired": 150,
+   "reward": {
+    "credits": 200,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 3,
+   "name": "Collector",
+   "xpRequired": 400,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 1,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 4,
+   "name": "Enthusiast",
+   "xpRequired": 800,
+   "reward": {
+    "credits": 400,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 5,
+   "name": "Curator",
+   "xpRequired": 1400,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "shelf-glass"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 6,
+   "name": "Connoisseur",
+   "xpRequired": 2200,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 2,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 7,
+   "name": "Archivist",
+   "xpRequired": 3200,
+   "reward": {
+    "credits": 800,
+    "eventTickets": 0,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 8,
+   "name": "Vault Keeper",
+   "xpRequired": 4500,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "bg-dark-vault"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 9,
+   "name": "Hall of Famer",
+   "xpRequired": 6200,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 3,
+    "cosmeticIds": [],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  },
+  {
+   "level": 10,
+   "name": "Legend",
+   "xpRequired": 8500,
+   "reward": {
+    "credits": 0,
+    "eventTickets": 0,
+    "cosmeticIds": [
+     "frame-gold"
+    ],
+    "cards": [],
+    "unlockListingIds": [],
+    "showcaseSlots": 0,
+    "collectorXp": 0
+   }
+  }
+ ],
+ "showcase": {
+  "defaultBackgroundId": "bg-modern-luxury",
+  "defaultFrameId": "frame-classic",
+  "defaultPedestalId": "ped-basic",
+  "defaultShelfId": "shelf-oak",
+  "defaultWallId": "wall-plaster",
+  "areas": [
+   {
+    "id": "featured",
+    "name": "Featured Pedestal",
+    "kind": "FeaturedPedestal",
+    "baseSlots": 1
+   },
+   {
+    "id": "main-wall",
+    "name": "Main Display Wall",
+    "kind": "MainWall",
+    "baseSlots": 4,
+    "extraSlots": [
+     {
+      "slots": 2,
+      "condition": {
+       "kind": "CollectorRank",
+       "value": 3
+      }
+     },
+     {
+      "slots": 2,
+      "condition": {
+       "kind": "CollectorRank",
+       "value": 6
+      }
+     }
+    ]
+   },
+   {
+    "id": "graded-shelf",
+    "name": "Graded Slab Shelf",
+    "kind": "GradedShelf",
+    "baseSlots": 3,
+    "areaUnlock": {
+     "kind": "CardsGraded",
+     "value": 1
+    },
+    "extraSlots": [
+     {
+      "slots": 3,
+      "condition": {
+       "kind": "CardsGraded",
+       "value": 10
+      }
+     }
+    ]
+   },
+   {
+    "id": "vintage-cabinet",
+    "name": "Vintage Cabinet",
+    "kind": "VintageCabinet",
+    "baseSlots": 3,
+    "areaUnlock": {
+     "kind": "VintageProductsOpened",
+     "value": 1
+    },
+    "extraSlots": [
+     {
+      "slots": 3,
+      "condition": {
+       "kind": "Achievement",
+       "refId": "ach-vintage-5"
+      }
+     }
+    ]
+   },
+   {
+    "id": "sports",
+    "name": "Sports Section",
+    "kind": "SportsSection",
+    "baseSlots": 4
+   },
+   {
+    "id": "tcg",
+    "name": "TCG Section",
+    "kind": "TcgSection",
+    "baseSlots": 4
+   },
+   {
+    "id": "completed-sets",
+    "name": "Completed Sets",
+    "kind": "CompletedSets",
+    "baseSlots": 3,
+    "areaUnlock": {
+     "kind": "SetsCompleted",
+     "value": 1
+    }
+   },
+   {
+    "id": "one-of-one",
+    "name": "One-of-One Vault",
+    "kind": "OneOfOne",
+    "baseSlots": 1,
+    "areaUnlock": {
+     "kind": "Achievement",
+     "refId": "ach-first-one-of-one"
+    },
+    "extraSlots": [
+     {
+      "slots": 2,
+      "condition": {
+       "kind": "CollectorRank",
+       "value": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": "favorites",
+    "name": "Personal Favorites",
+    "kind": "Favorites",
+    "baseSlots": 3,
+    "extraSlots": [
+     {
+      "slots": 3,
+      "condition": {
+       "kind": "CardShowsCompleted",
+       "value": 1
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "grading": {
+  "feeCredits": 150,
+  "turnaroundSeconds": 172800,
+  "minimumGrade": 1,
+  "maximumGrade": 10
+ },
+ "market": {
+  "dailyListingCount": 10,
+  "vintageListingCount": 4,
+  "listingLifetimeDays": 3,
+  "dailyTradeOffers": 2,
+  "playerListingSaleChancePerDay": 0.5,
+  "maxSellPriceOverValue": 1.5
+ },
+ "economy": {
+  "startingCredits": 2500,
+  "startingEventTickets": 0,
+  "startGameDay": 45,
+  "startingProductIds": [
+   "fh26-pack",
+   "fh26-pack",
+   "aeth-booster",
+   "aeth-booster"
+  ]
+ },
+ "xp": {
+  "perNewUniqueCard": 5,
+  "perPackOpened": 2,
+  "perCardGraded": 10,
+  "perTrade": 15,
+  "perSetMilestone": 40,
+  "perChallenge": 20,
+  "perRareDiscovery": 25
+ }
+}

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Runs the same NUnit sources that Unity's Test Runner runs in EditMode. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <DefineConstants>$(DefineConstants);CARDVAULT_DOTNET_TESTS</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/CardVault/Tests/EditMode/**/*.cs" />
+    <None Include="../../../Assets/CardVault/Resources/Content/cardvault_content.json" Link="Content/cardvault_content.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Core/CardVault.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+  </ItemGroup>
+</Project>
