@@ -125,25 +125,17 @@ namespace CardVault.Core.Market
                     PostListing(tx, npc, card, null, ListingSource.NpcDaily, expires);
                 }
 
-                var vintageProducts = _ctx.Content.Pack.Products.Where(p => p.IsVintage).ToList();
+                // Vintage singles. Sealed vintage supply is finite: it only comes from retired
+                // release allocations (ReleaseCalendarService) and card show vendor stock.
                 var vintageDealers = npcs.Where(n => n.DealsVintage).ToList();
-                if (vintageDealers.Count == 0) vintageDealers = npcs;
-                for (int i = 0; i < Config.VintageListingCount && vintageProducts.Count > 0; i++)
+                if (vintageDealers.Count == 0) vintageDealers = npcs.ToList();
+                for (int i = 0; i < Config.VintageListingCount; i++)
                 {
                     var npc = _ctx.Rng.Pick(vintageDealers);
-                    if (_ctx.Rng.Chance(0.5))
-                    {
-                        var product = _ctx.Rng.Pick(vintageProducts);
-                        var item = _sealed.Create(tx, product.Id, Owners.Npc(npc.Id), "market:vintage");
-                        PostListing(tx, npc, null, item, ListingSource.Vintage, expires);
-                    }
-                    else
-                    {
-                        var set = PickSetFor(npc, vintage: true);
-                        if (set == null) continue;
-                        var card = SeedNpcCard(tx, npc, set, preferGraded: true);
-                        if (card != null) PostListing(tx, npc, card, null, ListingSource.Vintage, expires);
-                    }
+                    var set = PickSetFor(npc, vintage: true);
+                    if (set == null) continue;
+                    var card = SeedNpcCard(tx, npc, set, preferGraded: true);
+                    if (card != null) PostListing(tx, npc, card, null, ListingSource.Vintage, expires);
                 }
 
                 PostTradeOffers(tx, npcs);
@@ -202,10 +194,21 @@ namespace CardVault.Core.Market
             return card;
         }
 
-        private MarketListing PostListing(Transaction tx, NpcDef npc, CardInstance card, SealedProductInstance item, ListingSource source, long expires)
+        /// <summary>Lists retired sealed stock on the vintage market (used by the release calendar).</summary>
+        public MarketListing PostRetiredStock(Transaction tx, NpcDef npc, SealedProductInstance item, double vintageMultiplier)
+        {
+            var product = _ctx.Content.Products[item.ProductId];
+            long price = (long)Math.Round(product.PriceCredits * Math.Max(1.0, vintageMultiplier) * npc.SellMarkup);
+            // Retired stock stays listed until bought; it is finite and never replenished.
+            return PostListing(tx, npc, null, item, ListingSource.Vintage, 0, price);
+        }
+
+        private MarketListing PostListing(Transaction tx, NpcDef npc, CardInstance card, SealedProductInstance item, ListingSource source, long expires,
+            long? fixedPrice = null)
         {
             long price;
-            if (card != null) price = (long)Math.Round(_prices.EstimateValue(card) * npc.SellMarkup);
+            if (fixedPrice.HasValue) price = fixedPrice.Value;
+            else if (card != null) price = (long)Math.Round(_prices.EstimateValue(card) * npc.SellMarkup);
             else price = (long)Math.Round(_prices.EstimateProductValue(_ctx.Content.Products[item.ProductId], 1.6) * npc.SellMarkup);
 
             var listing = new MarketListing

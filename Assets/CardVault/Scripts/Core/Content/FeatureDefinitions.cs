@@ -118,6 +118,8 @@ namespace CardVault.Core.Content
         ReleaseWatched,
         ShowcaseUpdated,
         AchievementUnlocked,
+        ReleaseMilestone,
+        EventVendorPurchase,
     }
 
     public sealed class ChallengeFilter
