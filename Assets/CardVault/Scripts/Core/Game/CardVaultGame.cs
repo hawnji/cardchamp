@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using CardVault.Core.Calendar;
+using CardVault.Core.CardShows;
 using CardVault.Core.Cards;
 using CardVault.Core.Common;
 using CardVault.Core.Content;
@@ -46,6 +47,7 @@ namespace CardVault.Core.Game
         public ShowcaseService Showcase { get; }
         public ReleaseCalendarService Calendar { get; }
         public ShopService Shop { get; }
+        public CardShowService CardShows { get; }
 
         /// <summary>Warnings from loading/migrating the save (shown in a debug panel, never to players as paths).</summary>
         public List<string> LoadWarnings { get; } = new List<string>();
@@ -69,6 +71,8 @@ namespace CardVault.Core.Game
             Showcase = new ShowcaseService(Context, Unlocks);
             Calendar = new ReleaseCalendarService(Context, Sealed, Market);
             Shop = new ShopService(Context, Calendar, Sealed, Economy);
+            CardShows = new CardShowService(Context, Inventory, Sealed, History, Economy, Rewards, Catalog);
+            Calendar.CardShowItems = CardShows.CalendarItems;
         }
 
         /// <summary>Starts a fresh game with starting credits and products from content.</summary>
@@ -155,6 +159,7 @@ namespace CardVault.Core.Game
         {
             Grading.ProcessReady();
             Calendar.Tick();
+            CardShows.Tick();
             Market.Tick();
         }
 
