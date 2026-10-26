@@ -1,0 +1,32 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.csproj
+!tools/dotnet/**/*.csproj
+*.unityproj
+*.sln
+!tools/dotnet/*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+.vs/
+.idea/
+.vscode/
+
+# dotnet harness
+tools/dotnet/**/bin/
+tools/dotnet/**/obj/
+tools/dotnet/TestResults/
+__pycache__/
