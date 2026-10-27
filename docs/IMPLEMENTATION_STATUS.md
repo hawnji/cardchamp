@@ -127,7 +127,7 @@ Tests: `IntegrationTests` (2).
 
 ## Known issues and limits
 
-- **Unity not run.** The UI compiles against Unity reference assemblies but has not been opened in the Editor. Layout, styling and touch feel need a pass on a device. The project targets Unity 6 (6000.6.62f1), but the only reference assemblies available outside the Editor are 2021.3. The UI code avoids APIs that Unity 6 removed or deprecated (for example it uses `FindFirstObjectByType`), but Unity 6-specific compile errors or warnings can only be confirmed in the Editor.
+- **Unity not run.** The UI compiles against Unity reference assemblies but has not been opened in the Editor. Layout, styling and touch feel need a pass on a device. The project targets Unity 6 (6000.6.6f1), but the only reference assemblies available outside the Editor are 2021.3. The UI code avoids APIs that Unity 6 removed or deprecated (for example it uses `FindFirstObjectByType`), but Unity 6-specific compile errors or warnings can only be confirmed in the Editor.
 - **Input System branch unchecked.** The Android back handler has one branch for the Input System package and one for the legacy Input Manager. The compile check covers only the legacy branch, because the Input System has no reference build outside Unity.
 - **Package versions.** `com.unity.test-framework` 1.5.1 and `com.unity.inputsystem` 1.14.0 are set as minimums. If 6000.6 bundles newer locked versions, the Package Manager upgrades them on first open.
 - **Theme stylesheet.** `Resources/UI/CardVaultTheme.tss` imports `unity-theme://default`. If Unity reports a missing theme on first import, create one with **Create > UI Toolkit > Default Runtime Theme File** at the same path.
@@ -139,7 +139,7 @@ Tests: `IntegrationTests` (2).
 
 ## Manual verification steps (Unity and Android)
 
-1. Open the project in Unity 6000.6.62f1 and let packages resolve. Confirm the console shows no compile errors or obsolete-API warnings.
+1. Open the project in Unity 6000.6.6f1 and let packages resolve. Confirm the console shows no compile errors or obsolete-API warnings.
 2. Run **Test Runner > EditMode > Run All**. Expect 101 passing tests.
 3. Create and save an empty scene, add it to Build Settings and press Play at 1080x1920.
 4. Smoke-test the main flows:
