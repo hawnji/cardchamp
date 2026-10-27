@@ -127,7 +127,7 @@ Tests: `IntegrationTests` (2).
 
 ## Known issues and limits
 
-- **Unity not run.** The UI compiles against Unity reference assemblies but has not been opened in the Editor. Layout, styling and touch feel need a pass on a device. The project targets Unity 6 (6000.6.6f1), but the only reference assemblies available outside the Editor are 2021.3. The UI code avoids APIs that Unity 6 removed or deprecated (for example it uses `FindFirstObjectByType`), but Unity 6-specific compile errors or warnings can only be confirmed in the Editor.
+- **Unity not run.** The UI compiles against Unity reference assemblies but has not been opened in the Editor. Layout, styling and touch feel need a pass on a device. The project targets Unity 6 (6000.6.6f1), but the only reference assemblies available outside the Editor are 2021.3. The UI code avoids APIs that Unity 6 removed or deprecated (for example it uses `FindAnyObjectByType`), but Unity 6-specific compile errors or warnings can only be confirmed in the Editor.
 - **Back button.** The project has no Input System package dependency (version 1.14.0 failed to compile on 6000.6). With the legacy Input Manager the back key is polled; otherwise UI Toolkit's `NavigationCancelEvent` handles it. Both branches compile in the check.
 - **Package versions.** `com.unity.test-framework` 1.5.1 is set as a minimum. If 6000.6 bundles a newer locked version, the Package Manager upgrades it on first open.
 - **Theme stylesheet.** `Resources/UI/CardVaultTheme.tss` imports `unity-theme://default`. If Unity reports a missing theme on first import, create one with **Create > UI Toolkit > Default Runtime Theme File** at the same path.
