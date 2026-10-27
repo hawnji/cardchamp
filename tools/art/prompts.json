@@ -1,0 +1,1204 @@
+{
+ "contentVersion": 1,
+ "jobs": [
+  {
+   "key": "fh26/001",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a tall athletic woman basketball player with dark brown skin and short braids, wearing a plain royal blue and yellow uniform with no lettering or logos, dribbling at full speed past a defender, ball low, eyes up. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "cc65c7b9e716850b"
+  },
+  {
+   "key": "fh26/002",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a towering broad-shouldered man basketball player with deep brown skin and a close fade, wearing a plain royal blue and yellow uniform with no lettering or logos, posting up in the paint, arms extended for a rebound. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "eb328170f7f17786"
+  },
+  {
+   "key": "fh26/003",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a lean man basketball player with tan skin, curly black hair and a headband, wearing a plain forest green and white uniform with no lettering or logos, rising for a powerful one-handed dunk. Full-body action shot. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "1fca557f15c699ff"
+  },
+  {
+   "key": "fh26/004",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a wiry man basketball player with pale skin and swept-back blond hair, wearing a plain forest green and white uniform with no lettering or logos, dribbling at full speed past a defender, ball low, eyes up. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "3f126c66b65eadcc"
+  },
+  {
+   "key": "fh26/005",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a muscular man basketball player with light brown skin and short twists, wearing a plain crimson and black uniform with no lettering or logos, rising for a powerful one-handed dunk. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "287da8baed5107ce"
+  },
+  {
+   "key": "fh26/006",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a tall man basketball player with olive skin, a shaved head and a trimmed beard, wearing a plain crimson and black uniform with no lettering or logos, posting up in the paint, arms extended for a rebound. Full-body action shot. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9dafa6e498fbadd4"
+  },
+  {
+   "key": "fh26/007",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a quick athletic woman basketball player with light brown skin and a long dark ponytail, wearing a plain teal and white uniform with no lettering or logos, dribbling at full speed past a defender, ball low, eyes up. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "1c55ad6af4072a67"
+  },
+  {
+   "key": "fh26/008",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a rangy man basketball player with fair freckled skin and short red hair, wearing a plain teal and white uniform with no lettering or logos, rising for a powerful one-handed dunk. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "d2490ebc69438947"
+  },
+  {
+   "key": "fh26/009",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a young athletic woman basketball player with East Asian features and a sleek black bob, wearing a plain royal blue and yellow uniform with no lettering or logos, rising for a powerful one-handed dunk. Full-body action shot. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "f60158c1a0a0a162"
+  },
+  {
+   "key": "fh26/010",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a very tall man basketball player with dark skin, a high-top fade and arm sleeves, wearing a plain forest green and white uniform with no lettering or logos, posting up in the paint, arms extended for a rebound. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "89cd2405fcee708d"
+  },
+  {
+   "key": "fh26/011",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a tall athletic woman basketball player with dark brown skin and short braids, wearing a plain royal blue and yellow uniform with no lettering or logos, pulling up for a jump shot at the top of the key. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "3908e9060769f0db"
+  },
+  {
+   "key": "fh26/012",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a towering broad-shouldered man basketball player with deep brown skin and a close fade, wearing a plain royal blue and yellow uniform with no lettering or logos, swatting away a shot at the rim. Low-angle heroic shot. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "893822be2b23871b"
+  },
+  {
+   "key": "fh26/013",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a lean man basketball player with tan skin, curly black hair and a headband, wearing a plain forest green and white uniform with no lettering or logos, driving baseline with the ball tucked under one arm. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "ab1c0b42f17ca0ef"
+  },
+  {
+   "key": "fh26/014",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a wiry man basketball player with pale skin and swept-back blond hair, wearing a plain forest green and white uniform with no lettering or logos, pulling up for a jump shot at the top of the key. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "dac0ad0ef6837e94"
+  },
+  {
+   "key": "fh26/015",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a muscular man basketball player with light brown skin and short twists, wearing a plain crimson and black uniform with no lettering or logos, driving baseline with the ball tucked under one arm. Low-angle heroic shot. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "c2842634086c91fe"
+  },
+  {
+   "key": "fh26/016",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a tall man basketball player with olive skin, a shaved head and a trimmed beard, wearing a plain crimson and black uniform with no lettering or logos, swatting away a shot at the rim. Low-angle heroic shot. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "cb848adf3c8a365c"
+  },
+  {
+   "key": "fh26/017",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a quick athletic woman basketball player with light brown skin and a long dark ponytail, wearing a plain teal and white uniform with no lettering or logos, pulling up for a jump shot at the top of the key. Low-angle heroic shot. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "0095781a4e8b3ff8"
+  },
+  {
+   "key": "fh26/018",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a rangy man basketball player with fair freckled skin and short red hair, wearing a plain teal and white uniform with no lettering or logos, driving baseline with the ball tucked under one arm. Low-angle heroic shot. First-season energy, youthful determination. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "79e2331390043c68"
+  },
+  {
+   "key": "fh26/019",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a young athletic woman basketball player with East Asian features and a sleek black bob, wearing a plain royal blue and yellow uniform with no lettering or logos, driving baseline with the ball tucked under one arm. Low-angle heroic shot. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "09e866b6f0b3c1a0"
+  },
+  {
+   "key": "fh26/020",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. Subject: a very tall man basketball player with dark skin, a high-top fade and arm sleeves, wearing a plain forest green and white uniform with no lettering or logos, swatting away a shot at the rim. Low-angle heroic shot. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "3f632434c85f35a9"
+  },
+  {
+   "key": "apex26/001",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a lanky man baseball pitcher with tan skin and a thin mustache, wearing a plain brick red and sand uniform with no lettering or logos, mid wind-up on the mound, leg kick, glove raised. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "56d3e01402bf1d98"
+  },
+  {
+   "key": "apex26/002",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a stocky man baseball catcher with ruddy skin and a thick brown beard, wearing a plain brick red and sand uniform with no lettering or logos, crouched behind the plate in catcher's gear, mitt raised. Full-body action shot. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "71508c68919473f8"
+  },
+  {
+   "key": "apex26/003",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a nimble woman baseball shortstop with East Asian features and a short black ponytail under her cap, wearing a plain navy and gold uniform with no lettering or logos, diving to field a ground ball, dirt flying. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "ede3bd02c3755f1b"
+  },
+  {
+   "key": "apex26/004",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: an athletic man baseball outfielder with fair skin and sandy hair under his cap, wearing a plain navy and gold uniform with no lettering or logos, sprinting to make a leaping catch at the wall. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "858279bc621df259"
+  },
+  {
+   "key": "apex26/005",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a big powerful man baseball first baseman with pale skin and a buzz cut, wearing a plain purple and silver uniform with no lettering or logos, stretching off the bag to receive a throw. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "82563b716841ec69"
+  },
+  {
+   "key": "apex26/006",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a tall man baseball pitcher with brown skin and long dark hair tied back, wearing a plain purple and silver uniform with no lettering or logos, mid wind-up on the mound, leg kick, glove raised. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "60651e5c275ffdae"
+  },
+  {
+   "key": "apex26/007",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a sturdy man baseball third baseman with light skin and a handlebar mustache, wearing a plain charcoal and gold uniform with no lettering or logos, following through on a powerful swing, bat extended. Full-body action shot. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "d280b12cd7e3a76f"
+  },
+  {
+   "key": "apex26/008",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a fast man baseball outfielder with dark brown skin and eye black under his cap, wearing a plain charcoal and gold uniform with no lettering or logos, sprinting to make a leaping catch at the wall. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "325abe3b9faf96ba"
+  },
+  {
+   "key": "apex26/009",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a lanky man baseball pitcher with tan skin and a thin mustache, wearing a plain brick red and sand uniform with no lettering or logos, releasing a fastball, arm whipping forward. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "eda3c0abc76079e7"
+  },
+  {
+   "key": "apex26/010",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a stocky man baseball catcher with ruddy skin and a thick brown beard, wearing a plain brick red and sand uniform with no lettering or logos, springing up from the crouch to throw, mask pushed back. Low-angle heroic shot. Clean, simple background behind the subject. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9ebc8da25bb651f9"
+  },
+  {
+   "key": "apex26/011",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: a nimble woman baseball shortstop with East Asian features and a short black ponytail under her cap, wearing a plain navy and gold uniform with no lettering or logos, turning a double play over the bag. Low-angle heroic shot. Clean, simple background behind the subject. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "cb061bffeab13b19"
+  },
+  {
+   "key": "apex26/012",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. Subject: an athletic man baseball outfielder with fair skin and sandy hair under his cap, wearing a plain navy and gold uniform with no lettering or logos, rounding second base at full speed. Low-angle heroic shot. Clean, simple background behind the subject. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "df6faf811bcf261f"
+  },
+  {
+   "key": "hl94/001",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a lanky man baseball pitcher with tan skin and a thin mustache, wearing a plain brick red and sand uniform with no lettering or logos, mid wind-up on the mound, leg kick, glove raised. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9ee10fa35c7a4f41"
+  },
+  {
+   "key": "hl94/002",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a stocky man baseball catcher with ruddy skin and a thick brown beard, wearing a plain brick red and sand uniform with no lettering or logos, crouched behind the plate in catcher's gear, mitt raised. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "bbf0dc228f45519f"
+  },
+  {
+   "key": "hl94/003",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a nimble woman baseball shortstop with East Asian features and a short black ponytail under her cap, wearing a plain navy and gold uniform with no lettering or logos, diving to field a ground ball, dirt flying. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "b9e6a1238ecf9181"
+  },
+  {
+   "key": "hl94/004",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: an athletic man baseball outfielder with fair skin and sandy hair under his cap, wearing a plain navy and gold uniform with no lettering or logos, sprinting to make a leaping catch at the wall. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "81266ef0c31663ad"
+  },
+  {
+   "key": "hl94/005",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a big powerful man baseball first baseman with pale skin and a buzz cut, wearing a plain purple and silver uniform with no lettering or logos, launching a home run swing. Low-angle heroic shot. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "f83d490905174fd4"
+  },
+  {
+   "key": "hl94/006",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a tall man baseball pitcher with brown skin and long dark hair tied back, wearing a plain purple and silver uniform with no lettering or logos, releasing a fastball, arm whipping forward. Low-angle heroic shot. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "524a080cd1ced364"
+  },
+  {
+   "key": "hl94/007",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a sturdy man baseball third baseman with light skin and a handlebar mustache, wearing a plain charcoal and gold uniform with no lettering or logos, charging a slow roller barehanded. Low-angle heroic shot. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "c0317f878e3b1a0a"
+  },
+  {
+   "key": "hl94/008",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a fast man baseball outfielder with dark brown skin and eye black under his cap, wearing a plain charcoal and gold uniform with no lettering or logos, rounding second base at full speed. Low-angle heroic shot. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "5a261ebb370b210a"
+  },
+  {
+   "key": "hl94/009",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a lanky man baseball pitcher with tan skin and a thin mustache, wearing a plain brick red and sand uniform with no lettering or logos, releasing a fastball, arm whipping forward. Full-body action shot. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "6806ca1509c61e4e"
+  },
+  {
+   "key": "hl94/010",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a stocky man baseball catcher with ruddy skin and a thick brown beard, wearing a plain brick red and sand uniform with no lettering or logos, springing up from the crouch to throw, mask pushed back. Full-body action shot. Printed on old card stock. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "29df3815e8efc4a4"
+  },
+  {
+   "key": "hl94/011",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: a nimble woman baseball shortstop with East Asian features and a short black ponytail under her cap, wearing a plain navy and gold uniform with no lettering or logos, turning a double play over the bag. Full-body action shot. Printed on old card stock. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "a975595ab7a45d8e"
+  },
+  {
+   "key": "hl94/012",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. Subject: an athletic man baseball outfielder with fair skin and sandy hair under his cap, wearing a plain navy and gold uniform with no lettering or logos, rounding second base at full speed. Full-body action shot. Printed on old card stock. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "78d73c329ecd27b4"
+  },
+  {
+   "key": "fhr26/001",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a tall athletic woman basketball player with dark brown skin and short braids, wearing a plain royal blue and yellow uniform with no lettering or logos, dribbling at full speed past a defender, ball low, eyes up. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "e3a752241c2d72f3"
+  },
+  {
+   "key": "fhr26/002",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a towering broad-shouldered man basketball player with deep brown skin and a close fade, wearing a plain royal blue and yellow uniform with no lettering or logos, posting up in the paint, arms extended for a rebound. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "e17d06bbc58e6e22"
+  },
+  {
+   "key": "fhr26/003",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a lean man basketball player with tan skin, curly black hair and a headband, wearing a plain forest green and white uniform with no lettering or logos, rising for a powerful one-handed dunk. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "659d011142c93a00"
+  },
+  {
+   "key": "fhr26/004",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a wiry man basketball player with pale skin and swept-back blond hair, wearing a plain forest green and white uniform with no lettering or logos, dribbling at full speed past a defender, ball low, eyes up. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "49677cbaaeec4d03"
+  },
+  {
+   "key": "fhr26/005",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a muscular man basketball player with light brown skin and short twists, wearing a plain crimson and black uniform with no lettering or logos, rising for a powerful one-handed dunk. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "939b40f4436f5811"
+  },
+  {
+   "key": "fhr26/006",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a tall man basketball player with olive skin, a shaved head and a trimmed beard, wearing a plain crimson and black uniform with no lettering or logos, posting up in the paint, arms extended for a rebound. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "33e4367eab5ad309"
+  },
+  {
+   "key": "fhr26/007",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a quick athletic woman basketball player with light brown skin and a long dark ponytail, wearing a plain teal and white uniform with no lettering or logos, dribbling at full speed past a defender, ball low, eyes up. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "aa5471382807c82c"
+  },
+  {
+   "key": "fhr26/008",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a rangy man basketball player with fair freckled skin and short red hair, wearing a plain teal and white uniform with no lettering or logos, rising for a powerful one-handed dunk. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "37d976277cca1eae"
+  },
+  {
+   "key": "fhr26/009",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a young athletic woman basketball player with East Asian features and a sleek black bob, wearing a plain royal blue and yellow uniform with no lettering or logos, rising for a powerful one-handed dunk. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "d5a8312623c892ae"
+  },
+  {
+   "key": "fhr26/010",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. Subject: a very tall man basketball player with dark skin, a high-top fade and arm sleeves, wearing a plain forest green and white uniform with no lettering or logos, posting up in the paint, arms extended for a rebound. Three-quarter close-up portrait with an action background. First-season energy, youthful determination. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "54760d82489b3542"
+  },
+  {
+   "key": "aeth/001",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a sleek storm drake with slate-blue scales and lightning crackling along its wings. Surrounded by crackling lightning and dark storm clouds. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "4bc5eff64d3d7b21"
+  },
+  {
+   "key": "aeth/002",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: an armored rune warden knight, a woman in silver plate etched with glowing runes, holding a tower shield. Surrounded by glowing violet runes floating in the air. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "ec1daea493b252f1"
+  },
+  {
+   "key": "aeth/003",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a small fox spirit with fur made of living embers and a flaming tail. Surrounded by embers and orange flame light. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "a44e2dd9d75b2808"
+  },
+  {
+   "key": "aeth/004",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: an elderly sea mage in flowing teal robes, raising a staff that commands a wave. Surrounded by swirling tides and teal water light. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "e6fa428833089ce4"
+  },
+  {
+   "key": "aeth/005",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a towering guardian made of ancient oak and moss with glowing green eyes. Surrounded by vines, leaves and green sunlight. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "0ac73263e146fcba"
+  },
+  {
+   "key": "aeth/006",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a hooded shadow assassin, a woman with silver hair and twin curved daggers. Surrounded by drifting shadow wisps and deep indigo light. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "14cdf974e3bb2363"
+  },
+  {
+   "key": "aeth/007",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a hulking golem of floating stone blocks bound by molten forge light. Surrounded by floating rock shards and warm dust. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "5ccc426721b1fc1b"
+  },
+  {
+   "key": "aeth/008",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a radiant phoenix with gold and crimson flame feathers. Surrounded by embers and orange flame light. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9cd98a4d01434920"
+  },
+  {
+   "key": "aeth/009",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a young scholar with ink-stained hands writing glowing runes in the air from an open tome. Surrounded by glowing violet runes floating in the air. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "cb128c5d3ce1a9fe"
+  },
+  {
+   "key": "aeth/010",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a long serpentine frost wyrm with hollow ice-crystal ribs and pale glowing eyes. Surrounded by frost crystals and pale blue light. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "aa8ba409cf00173d"
+  },
+  {
+   "key": "aeth/011",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a sleek storm drake with slate-blue scales and lightning crackling along its wings. Surrounded by crackling lightning and dark storm clouds. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9690adb9dfb6c4b3"
+  },
+  {
+   "key": "aeth/012",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: an armored rune warden knight, a woman in silver plate etched with glowing runes, holding a tower shield. Surrounded by glowing violet runes floating in the air. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "8a71531bfaff5259"
+  },
+  {
+   "key": "aeth/013",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a small fox spirit with fur made of living embers and a flaming tail. Surrounded by embers and orange flame light. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "b4d138d13ffd9378"
+  },
+  {
+   "key": "aeth/014",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: an elderly sea mage in flowing teal robes, raising a staff that commands a wave. Surrounded by swirling tides and teal water light. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "c4f6f44463187b28"
+  },
+  {
+   "key": "aeth/015",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a towering guardian made of ancient oak and moss with glowing green eyes. Surrounded by vines, leaves and green sunlight. Low-angle heroic shot. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9ead7479f9489221"
+  },
+  {
+   "key": "aeth/016",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a hooded shadow assassin, a woman with silver hair and twin curved daggers. Surrounded by drifting shadow wisps and deep indigo light. Low-angle heroic shot. Alternate art: a dramatic full-scene composition with a different pose and setting from the regular card, extra-vivid color. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "b844cb467cd4000d"
+  },
+  {
+   "key": "aeth/017",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a hulking golem of floating stone blocks bound by molten forge light. Surrounded by floating rock shards and warm dust. Low-angle heroic shot. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "a224351cb72e6d91"
+  },
+  {
+   "key": "aeth/018",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a radiant phoenix with gold and crimson flame feathers. Surrounded by embers and orange flame light. Low-angle heroic shot. Alternate art: a dramatic full-scene composition with a different pose and setting from the regular card, extra-vivid color. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "34d65af5b1f256d1"
+  },
+  {
+   "key": "aeth/019",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a young scholar with ink-stained hands writing glowing runes in the air from an open tome. Surrounded by glowing violet runes floating in the air. Low-angle heroic shot. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "1ed09a547cb6351a"
+  },
+  {
+   "key": "aeth/020",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. Subject: a long serpentine frost wyrm with hollow ice-crystal ribs and pale glowing eyes. Surrounded by frost crystals and pale blue light. Low-angle heroic shot. Alternate art: a dramatic full-scene composition with a different pose and setting from the regular card, extra-vivid color. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9845a228d6e5692e"
+  },
+  {
+   "key": "nova/001",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a confident starship captain, a woman in a navy long coat with a holographic map at her hand. Surrounded by a starship bridge glow and blue holograms. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "b86ed735f9e44d3b"
+  },
+  {
+   "key": "nova/002",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a daring drift pilot in a battered flight suit and visor, leaning out of a small racing ship. Surrounded by magenta motion streaks and engine trails. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "4756002acf2afb22"
+  },
+  {
+   "key": "nova/003",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a mysterious robed oracle with a faceless mirrored mask and floating star-orbs. Surrounded by purple psychic energy rings. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "7b34cfd22a8f0a58"
+  },
+  {
+   "key": "nova/004",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a bulky guardian mech with a single cyan optic and riot-shield arms. Surrounded by teal circuitry light and drifting drones. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "dfff3a1c30c7dcb8"
+  },
+  {
+   "key": "nova/005",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a sleek courier in a streamlined suit sprinting through zero gravity with jet boots. Surrounded by magenta motion streaks and engine trails. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "b09bec00fef2bb85"
+  },
+  {
+   "key": "nova/006",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a floating spherical sentry drone with crackling ion cannons. Surrounded by teal circuitry light and drifting drones. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "144949d20fb085e8"
+  },
+  {
+   "key": "nova/007",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: an armored space knight in white and gold plate wielding a plasma lance. Surrounded by a starship bridge glow and blue holograms. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "718edaa354e661d6"
+  },
+  {
+   "key": "nova/008",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a scrappy old space salvager with a mechanical arm and a backpack of scrap tools. Surrounded by teal circuitry light and drifting drones. Full-body action shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "37efa03a6e0d4c6f"
+  },
+  {
+   "key": "nova/009",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a confident starship captain, a woman in a navy long coat with a holographic map at her hand. Surrounded by a starship bridge glow and blue holograms. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "fbca5bd507b1fbb5"
+  },
+  {
+   "key": "nova/010",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a daring drift pilot in a battered flight suit and visor, leaning out of a small racing ship. Surrounded by magenta motion streaks and engine trails. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "4ddc6f8be8a0146f"
+  },
+  {
+   "key": "nova/011",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a mysterious robed oracle with a faceless mirrored mask and floating star-orbs. Surrounded by purple psychic energy rings. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "12ed510a9870ea54"
+  },
+  {
+   "key": "nova/012",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a bulky guardian mech with a single cyan optic and riot-shield arms. Surrounded by teal circuitry light and drifting drones. Low-angle heroic shot. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "a04801003f8cb6e9"
+  },
+  {
+   "key": "nova/013",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a sleek courier in a streamlined suit sprinting through zero gravity with jet boots. Surrounded by magenta motion streaks and engine trails. Low-angle heroic shot. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "fea90e1944cf6298"
+  },
+  {
+   "key": "nova/014",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a floating spherical sentry drone with crackling ion cannons. Surrounded by teal circuitry light and drifting drones. Low-angle heroic shot. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "d6bdf5d34d574062"
+  },
+  {
+   "key": "nova/015",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: an armored space knight in white and gold plate wielding a plasma lance. Surrounded by a starship bridge glow and blue holograms. Low-angle heroic shot. Alternate art: a dramatic full-scene composition with a different pose and setting from the regular card, extra-vivid color. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "20950f027a6cd4cf"
+  },
+  {
+   "key": "nova/016",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. Subject: a scrappy old space salvager with a mechanical arm and a backpack of scrap tools. Surrounded by teal circuitry light and drifting drones. Low-angle heroic shot. Alternate art: a dramatic full-scene composition with a different pose and setting from the regular card, extra-vivid color. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "7284d595b5dda784"
+  },
+  {
+   "key": "mfo01/001",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a sleek storm drake with slate-blue scales and lightning crackling along its wings. Surrounded by crackling lightning and dark storm clouds. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "e7f6518bde9ab241"
+  },
+  {
+   "key": "mfo01/002",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: an armored rune warden knight, a woman in silver plate etched with glowing runes, holding a tower shield. Surrounded by glowing violet runes floating in the air. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "84639faf7244ce62"
+  },
+  {
+   "key": "mfo01/003",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a small fox spirit with fur made of living embers and a flaming tail. Surrounded by embers and orange flame light. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "8f8375b647b3b2ea"
+  },
+  {
+   "key": "mfo01/004",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: an elderly sea mage in flowing teal robes, raising a staff that commands a wave. Surrounded by swirling tides and teal water light. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "09b3474e8e23a277"
+  },
+  {
+   "key": "mfo01/005",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a towering guardian made of ancient oak and moss with glowing green eyes. Surrounded by vines, leaves and green sunlight. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9d59ebb4a1d315fc"
+  },
+  {
+   "key": "mfo01/006",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a hooded shadow assassin, a woman with silver hair and twin curved daggers. Surrounded by drifting shadow wisps and deep indigo light. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "dabd1f52fdebe9c2"
+  },
+  {
+   "key": "mfo01/007",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a hulking golem of floating stone blocks bound by molten forge light. Surrounded by floating rock shards and warm dust. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "9fa04df711a8873d"
+  },
+  {
+   "key": "mfo01/008",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a radiant phoenix with gold and crimson flame feathers. Surrounded by embers and orange flame light. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "72f11e7a7aa5f097"
+  },
+  {
+   "key": "mfo01/009",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a young scholar with ink-stained hands writing glowing runes in the air from an open tome. Surrounded by glowing violet runes floating in the air. Three-quarter close-up portrait with an action background. Printed on old card stock. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "68e3e5d1b1d53ed0"
+  },
+  {
+   "key": "mfo01/010",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a long serpentine frost wyrm with hollow ice-crystal ribs and pale glowing eyes. Surrounded by frost crystals and pale blue light. Three-quarter close-up portrait with an action background. Printed on old card stock. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "d7c523514ac3d517"
+  },
+  {
+   "key": "mfo01/011",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: a sleek storm drake with slate-blue scales and lightning crackling along its wings. Surrounded by crackling lightning and dark storm clouds. Full-body action shot. Printed on old card stock. Heroic lighting. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "6680e3d182a5aa6d"
+  },
+  {
+   "key": "mfo01/012",
+   "kind": "card",
+   "size": [
+    512,
+    720
+   ],
+   "prompt": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. Subject: an armored rune warden knight, a woman in silver plate etched with glowing runes, holding a tower shield. Surrounded by glowing violet runes floating in the air. Full-body action shot. Printed on old card stock. Heroic lighting with a radiant glow behind the subject. Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges. Highly detailed, crisp focus on the subject, professional collectible card quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "5801afa49618e112"
+  },
+  {
+   "key": "sets/fh26",
+   "kind": "set",
+   "size": [
+    1024,
+    400
+   ],
+   "prompt": "Wide banner artwork, no people in focus. Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look. A packed modern basketball arena from courtside under bright lights, empty glossy court in the foreground, wide cinematic view. Highly detailed, wide establishing shot, professional key art quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "000398e53620f4f8"
+  },
+  {
+   "key": "sets/apex26",
+   "kind": "set",
+   "size": [
+    1024,
+    400
+   ],
+   "prompt": "Wide banner artwork, no people in focus. Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look. A night baseball stadium seen from behind home plate, glowing floodlights, a pristine diamond, wide cinematic view. Highly detailed, wide establishing shot, professional key art quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "8dff82237f8a3f57"
+  },
+  {
+   "key": "sets/hl94",
+   "kind": "set",
+   "size": [
+    1024,
+    400
+   ],
+   "prompt": "Wide banner artwork, no people in focus. 1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look. A sunny 1990s ballpark with a hand-painted outfield wall and old wooden bleachers, faded film photograph look, wide view. Highly detailed, wide establishing shot, professional key art quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "cd655f7f70b92b2e"
+  },
+  {
+   "key": "sets/fhr26",
+   "kind": "set",
+   "size": [
+    1024,
+    400
+   ],
+   "prompt": "Wide banner artwork, no people in focus. Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look. A spotlit basketball court tunnel entrance with a fresh hardwood floor and confetti in the air, wide cinematic view. Highly detailed, wide establishing shot, professional key art quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "56386eb168f0d098"
+  },
+  {
+   "key": "sets/aeth",
+   "kind": "set",
+   "size": [
+    1024,
+    400
+   ],
+   "prompt": "Wide banner artwork, no people in focus. Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background. The floating isles of a fantasy sky realm at sunset, waterfalls spilling into clouds, a distant storm dragon silhouette, wide painterly panorama. Highly detailed, wide establishing shot, professional key art quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "c043e595db2c63fd"
+  },
+  {
+   "key": "sets/nova",
+   "kind": "set",
+   "size": [
+    1024,
+    400
+   ],
+   "prompt": "Wide banner artwork, no people in focus. Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background. A frontier space station orbiting a ringed planet inside a colorful nebula, starships docking, wide cinematic panorama. Highly detailed, wide establishing shot, professional key art quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "f5724a3c33b35f3a"
+  },
+  {
+   "key": "sets/mfo01",
+   "kind": "set",
+   "size": [
+    1024,
+    400
+   ],
+   "prompt": "Wide banner artwork, no people in focus. Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look. A classic painted fantasy landscape of a castle on a floating rock above the clouds, vintage 2000s gouache style, wide panorama. Highly detailed, wide establishing shot, professional key art quality.",
+   "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+   "hash": "eb2094a074d258f8"
+  }
+ ]
+}

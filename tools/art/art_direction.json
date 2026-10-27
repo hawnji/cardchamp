@@ -1,0 +1,154 @@
+{
+  "_comment": "Art direction for pre-generated card art. build_prompts.py combines this with the game content into prompts.json. Edit freely: subject descriptions keep each athlete/character looking the same across every card they appear on. Every subject is fictional; never add real people, teams, leagues or brand logos.",
+  "global": {
+    "prefix": "Trading card artwork, portrait orientation, single original fictional subject, full-bleed illustration with no border.",
+    "composition": "Subject framed in the upper two thirds of the image; keep the bottom quarter darker and less busy for a name plate; keep the top corners clear for badges.",
+    "suffix": "Highly detailed, crisp focus on the subject, professional collectible card quality.",
+    "negative": "text, letters, words, numbers, watermark, signature, logo, trademark, card border, frame, caption, jersey lettering, real person likeness, celebrity, blurry, deformed hands, extra limbs, cropped head, duplicate subject",
+    "shots": [
+      "Full-body action shot.",
+      "Low-angle heroic shot.",
+      "Three-quarter close-up portrait with an action background."
+    ],
+    "setSuffix": "Highly detailed, wide establishing shot, professional key art quality."
+  },
+  "sets": {
+    "fh26": {
+      "style": "Modern basketball card photo-illustration, dynamic indoor arena lighting, shallow depth of field, clean vibrant color grading, 2020s sports card look.",
+      "setArt": "A packed modern basketball arena from courtside under bright lights, empty glossy court in the foreground, wide cinematic view."
+    },
+    "fhr26": {
+      "style": "Modern basketball rookie card photo-illustration, warm spotlight, hopeful energy, soft bokeh crowd behind, 2020s sports card look.",
+      "setArt": "A spotlit basketball court tunnel entrance with a fresh hardwood floor and confetti in the air, wide cinematic view."
+    },
+    "apex26": {
+      "style": "Premium baseball card art with a chrome refractor aesthetic, dramatic night stadium lighting, strong rim light, rich saturated color, high-end sports card look.",
+      "setArt": "A night baseball stadium seen from behind home plate, glowing floodlights, a pristine diamond, wide cinematic view."
+    },
+    "hl94": {
+      "style": "1990s baseball card, painted portrait over a photo, slightly faded print colors, soft film grain, sunny daytime ballpark, nostalgic vintage cardboard look.",
+      "setArt": "A sunny 1990s ballpark with a hand-painted outfield wall and old wooden bleachers, faded film photograph look, wide view."
+    },
+    "aeth": {
+      "style": "Epic fantasy trading card game illustration, painterly digital art, luminous magical lighting, floating islands and storm clouds in the background.",
+      "setArt": "The floating isles of a fantasy sky realm at sunset, waterfalls spilling into clouds, a distant storm dragon silhouette, wide painterly panorama."
+    },
+    "mfo01": {
+      "style": "Early-2000s fantasy trading card game art, traditional gouache and airbrush painting, slightly dated vintage palette, classic high-fantasy look.",
+      "setArt": "A classic painted fantasy landscape of a castle on a floating rock above the clouds, vintage 2000s gouache style, wide panorama."
+    },
+    "nova": {
+      "style": "Space opera trading card game illustration, cinematic sci-fi concept art, neon rim lighting, starfields and nebulae in the background.",
+      "setArt": "A frontier space station orbiting a ringed planet inside a colorful nebula, starships docking, wide cinematic panorama."
+    }
+  },
+  "positions": {
+    "Guard": [
+      "dribbling at full speed past a defender, ball low, eyes up",
+      "pulling up for a jump shot at the top of the key"
+    ],
+    "Forward": [
+      "rising for a powerful one-handed dunk",
+      "driving baseline with the ball tucked under one arm"
+    ],
+    "Center": [
+      "posting up in the paint, arms extended for a rebound",
+      "swatting away a shot at the rim"
+    ],
+    "Pitcher": [
+      "mid wind-up on the mound, leg kick, glove raised",
+      "releasing a fastball, arm whipping forward"
+    ],
+    "Catcher": [
+      "crouched behind the plate in catcher's gear, mitt raised",
+      "springing up from the crouch to throw, mask pushed back"
+    ],
+    "Shortstop": [
+      "diving to field a ground ball, dirt flying",
+      "turning a double play over the bag"
+    ],
+    "Outfield": [
+      "sprinting to make a leaping catch at the wall",
+      "rounding second base at full speed"
+    ],
+    "First Base": [
+      "stretching off the bag to receive a throw",
+      "launching a home run swing"
+    ],
+    "Third Base": [
+      "following through on a powerful swing, bat extended",
+      "charging a slow roller barehanded"
+    ]
+  },
+  "elements": {
+    "Fire": "embers and orange flame light",
+    "Water": "swirling tides and teal water light",
+    "Storm": "crackling lightning and dark storm clouds",
+    "Rune": "glowing violet runes floating in the air",
+    "Nature": "vines, leaves and green sunlight",
+    "Shadow": "drifting shadow wisps and deep indigo light",
+    "Stone": "floating rock shards and warm dust",
+    "Ice": "frost crystals and pale blue light",
+    "Command": "a starship bridge glow and blue holograms",
+    "Speed": "magenta motion streaks and engine trails",
+    "Psionic": "purple psychic energy rings",
+    "Tech": "teal circuitry light and drifting drones"
+  },
+  "subjects": {
+    "mara-voss": "a tall athletic woman basketball player with dark brown skin and short braids",
+    "dex-okafor": "a towering broad-shouldered man basketball player with deep brown skin and a close fade",
+    "jalen-reyes": "a lean man basketball player with tan skin, curly black hair and a headband",
+    "tobias-lind": "a wiry man basketball player with pale skin and swept-back blond hair",
+    "kai-montgomery": "a muscular man basketball player with light brown skin and short twists",
+    "andre-castell": "a tall man basketball player with olive skin, a shaved head and a trimmed beard",
+    "noor-haddad": "a quick athletic woman basketball player with light brown skin and a long dark ponytail",
+    "eli-brannigan": "a rangy man basketball player with fair freckled skin and short red hair",
+    "sienna-park": "a young athletic woman basketball player with East Asian features and a sleek black bob",
+    "marcus-oyelaran": "a very tall man basketball player with dark skin, a high-top fade and arm sleeves",
+    "rafael-quinto": "a lanky man baseball pitcher with tan skin and a thin mustache",
+    "hank-delaney": "a stocky man baseball catcher with ruddy skin and a thick brown beard",
+    "yuki-tanabe": "a nimble woman baseball shortstop with East Asian features and a short black ponytail under her cap",
+    "cole-ashby": "an athletic man baseball outfielder with fair skin and sandy hair under his cap",
+    "ivan-petrov": "a big powerful man baseball first baseman with pale skin and a buzz cut",
+    "luis-cardenal": "a tall man baseball pitcher with brown skin and long dark hair tied back",
+    "wes-holloway": "a sturdy man baseball third baseman with light skin and a handlebar mustache",
+    "benny-marsh": "a fast man baseball outfielder with dark brown skin and eye black under his cap",
+    "storm-drake-vael": "a sleek storm drake with slate-blue scales and lightning crackling along its wings",
+    "warden-isolde": "an armored rune warden knight, a woman in silver plate etched with glowing runes, holding a tower shield",
+    "ember-fox-kit": "a small fox spirit with fur made of living embers and a flaming tail",
+    "tidecaller-oren": "an elderly sea mage in flowing teal robes, raising a staff that commands a wave",
+    "grove-sentinel": "a towering guardian made of ancient oak and moss with glowing green eyes",
+    "shade-lyra": "a hooded shadow assassin, a woman with silver hair and twin curved daggers",
+    "skyforge-golem": "a hulking golem of floating stone blocks bound by molten forge light",
+    "aether-phoenix": "a radiant phoenix with gold and crimson flame feathers",
+    "rune-scribe-tam": "a young scholar with ink-stained hands writing glowing runes in the air from an open tome",
+    "frost-wyrm": "a long serpentine frost wyrm with hollow ice-crystal ribs and pale glowing eyes",
+    "captain-rhea-cole": "a confident starship captain, a woman in a navy long coat with a holographic map at her hand",
+    "drift-pilot-zan": "a daring drift pilot in a battered flight suit and visor, leaning out of a small racing ship",
+    "void-oracle": "a mysterious robed oracle with a faceless mirrored mask and floating star-orbs",
+    "mech-ward-7": "a bulky guardian mech with a single cyan optic and riot-shield arms",
+    "nebula-runner": "a sleek courier in a streamlined suit sprinting through zero gravity with jet boots",
+    "ion-sentry": "a floating spherical sentry drone with crackling ion cannons",
+    "quasar-knight": "an armored space knight in white and gold plate wielding a plasma lance",
+    "salvager-moss": "a scrappy old space salvager with a mechanical arm and a backpack of scrap tools"
+  },
+  "modifiers": {
+    "rookie": "First-season energy, youthful determination.",
+    "autograph": "Clean, simple background behind the subject.",
+    "alternateArt": "Alternate art: a dramatic full-scene composition with a different pose and setting from the regular card, extra-vivid color.",
+    "vintage": "Printed on old card stock."
+  },
+  "rarity": {
+    "Common": "",
+    "Uncommon": "",
+    "Rare": "Heroic lighting.",
+    "SuperRare": "Heroic lighting with a radiant glow behind the subject.",
+    "Legendary": "Legendary aura, god rays and particles, the most dramatic version of the subject."
+  },
+  "variants": {
+    "_comment": "Optional unique art for 1/1 parallels, saved as {artKey}_{parallelId}. Build them with build_prompts.py --variants. Cards without variant art fall back to the base art.",
+    "black1": "Monochrome black-and-gold version of the scene, deep shadows, gold highlights.",
+    "superfractor1": "Iridescent gold superfractor version of the scene, swirling rainbow light refractions.",
+    "mythic1": "Mythic version of the scene, the subject surrounded by a cosmic violet aura and constellations."
+  }
+}

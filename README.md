@@ -47,6 +47,6 @@ The game validates the content at load (missing references, duplicate ids, bad p
 
 ## Artwork
 
-Card, set and show art is procedural by default. Drop images into `Assets/CardVault/Resources/Art/` named after the content's `artKey` (sets use `sets/{artKey}`) and the card renderer picks them up automatically.
+Card art is generated ahead of time with an image model and shipped with the game, so it works offline. `tools/art/` builds prompts from the card data and runs the generation (free with a local ComfyUI, or through Cloudflare or OpenAI). See [tools/art/README.md](tools/art/README.md). Images live in `Assets/CardVault/Resources/Art/` under each card's `artKey` (sets use `sets/{artKey}`), and any card without an image falls back to procedural art.
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/IMPLEMENTATION_STATUS.md](docs/IMPLEMENTATION_STATUS.md).

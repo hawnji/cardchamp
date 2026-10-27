@@ -30,3 +30,6 @@ tools/dotnet/**/bin/
 tools/dotnet/**/obj/
 tools/dotnet/TestResults/
 __pycache__/
+
+# card art masters (full-size originals from tools/art/generate_art.py)
+tools/art/masters/
