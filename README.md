@@ -18,7 +18,7 @@ Collect, open, grade, trade and display cards across fictional sports and TCG se
 
 ## Running in Unity
 
-1. Open the folder with **Unity 6 (6000.6.62f1)**, which `ProjectSettings/ProjectVersion.txt` pins. Unity resolves Newtonsoft JSON, the Input System and the test framework from `Packages/manifest.json`. If Unity asks to enable the new input backend, either answer works: the Android back button is handled for both.
+1. Open the folder with **Unity 6 (6000.6.6f1)**, which `ProjectSettings/ProjectVersion.txt` pins. Unity resolves Newtonsoft JSON, the Input System and the test framework from `Packages/manifest.json`. If Unity asks to enable the new input backend, either answer works: the Android back button is handled for both.
 2. Create an empty scene, save it (for example `Assets/CardVault/Scenes/Main.unity`) and add it to **File > Build Settings**. No GameObjects are needed: `CardVaultApp` bootstraps itself after the scene loads and builds the whole UI in code.
 3. Press Play. The Game view should use a portrait resolution such as 1080x1920.
 4. Run the tests with **Window > General > Test Runner > EditMode > Run All**.
