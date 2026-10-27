@@ -64,6 +64,9 @@ namespace CardVault.UnityLayer.UI
             _root.style.backgroundColor = Theme.Background;
             ApplyFont(_root);
             ApplySafeArea();
+#if !ENABLE_LEGACY_INPUT_MANAGER
+            RegisterCancelHandler();
+#endif
 
             _topBar = Ui.Row();
             _topBar.style.backgroundColor = Theme.Surface;
@@ -195,16 +198,26 @@ namespace CardVault.UnityLayer.UI
             Render(scrollToTop: false);
         }
 
-        /// <summary>Android back button support. Android reports back as the Escape key in both input backends.</summary>
+        /// <summary>
+        /// Android back button support. Android reports back as Escape. With the legacy Input Manager
+        /// it is polled here; otherwise UI Toolkit delivers it as a navigation cancel event (see
+        /// RegisterCancelHandler), so no input package is required.
+        /// </summary>
         public void HandleBackButton()
         {
-#if ENABLE_INPUT_SYSTEM
-            var keyboard = UnityEngine.InputSystem.Keyboard.current;
-            if (keyboard != null && keyboard.escapeKey.wasPressedThisFrame) Back();
-#elif ENABLE_LEGACY_INPUT_MANAGER
+#if ENABLE_LEGACY_INPUT_MANAGER
             if (Input.GetKeyDown(KeyCode.Escape)) Back();
 #endif
         }
+
+#if !ENABLE_LEGACY_INPUT_MANAGER
+        private void RegisterCancelHandler()
+        {
+            void Hook(IPanel panel) => panel?.visualTree.RegisterCallback<NavigationCancelEvent>(_ => Back());
+            if (_root.panel != null) Hook(_root.panel);
+            else _root.RegisterCallback<AttachToPanelEvent>(e => Hook(e.destinationPanel));
+        }
+#endif
 
         private GameScreen Current => _stack.Count > 0 ? _stack.Peek() : _tabs?[_tab];
 
