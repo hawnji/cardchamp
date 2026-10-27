@@ -195,10 +195,15 @@ namespace CardVault.UnityLayer.UI
             Render(scrollToTop: false);
         }
 
-        /// <summary>Android back button support.</summary>
+        /// <summary>Android back button support. Android reports back as the Escape key in both input backends.</summary>
         public void HandleBackButton()
         {
+#if ENABLE_INPUT_SYSTEM
+            var keyboard = UnityEngine.InputSystem.Keyboard.current;
+            if (keyboard != null && keyboard.escapeKey.wasPressedThisFrame) Back();
+#elif ENABLE_LEGACY_INPUT_MANAGER
             if (Input.GetKeyDown(KeyCode.Escape)) Back();
+#endif
         }
 
         private GameScreen Current => _stack.Count > 0 ? _stack.Peek() : _tabs?[_tab];

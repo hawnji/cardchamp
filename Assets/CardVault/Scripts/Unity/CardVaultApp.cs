@@ -32,7 +32,7 @@ namespace CardVault.UnityLayer
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void Bootstrap()
         {
-            if (Instance != null || FindObjectOfType<CardVaultApp>() != null) return;
+            if (Instance != null || FindFirstObjectByType<CardVaultApp>() != null) return;
             var go = new GameObject("CardVault");
             DontDestroyOnLoad(go);
             go.AddComponent<CardVaultApp>();
