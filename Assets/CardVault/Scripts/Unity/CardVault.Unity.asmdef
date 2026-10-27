@@ -2,8 +2,7 @@
     "name": "CardVault.Unity",
     "rootNamespace": "CardVault.UnityLayer",
     "references": [
-        "CardVault.Core",
-        "Unity.InputSystem"
+        "CardVault.Core"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
