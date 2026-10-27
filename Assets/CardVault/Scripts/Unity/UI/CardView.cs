@@ -46,12 +46,23 @@ namespace CardVault.UnityLayer.UI
             }
             return tex;
         }
+
+        /// <summary>First art that exists among the candidates (see <see cref="CardArt.Candidates"/>).</summary>
+        public static Texture2D First(IReadOnlyList<string> artKeys)
+        {
+            for (int i = 0; i < artKeys.Count; i++)
+            {
+                var tex = Get(artKeys[i]);
+                if (tex != null) return tex;
+            }
+            return null;
+        }
     }
 
     /// <summary>
     /// Procedural premium card face: team/element colours, parallel foil border, serial stamp,
-    /// rookie/autograph marks and a graded slab treatment. Real artwork is layered in when an
-    /// art asset exists for the card's art key.
+    /// rookie/autograph marks and a graded slab treatment. Pre-generated artwork (tools/art) is
+    /// layered in when an asset exists for the card's art key or its parallel's variant key.
     /// </summary>
     public sealed class CardView : VisualElement
     {
@@ -171,7 +182,7 @@ namespace CardVault.UnityLayer.UI
 
             _art.style.backgroundColor = primary;
             _artShade.style.backgroundColor = new Color(secondary.r, secondary.g, secondary.b, 0.55f);
-            var tex = ArtCache.Get(t.ArtKey);
+            var tex = ArtCache.First(CardArt.Candidates(t, parallel));
             _art.style.backgroundImage = tex != null ? new StyleBackground(tex) : new StyleBackground(StyleKeyword.None);
 
             Color frame = parallel.IsBase ? Theme.Hex("#E6E6E6") : Theme.Hex(parallel.ColorHex, Theme.Accent);

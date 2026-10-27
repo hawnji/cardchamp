@@ -131,7 +131,7 @@ Tests: `IntegrationTests` (2).
 - **Back button.** The project has no Input System package dependency (version 1.14.0 failed to compile on 6000.6). With the legacy Input Manager the back key is polled; otherwise UI Toolkit's `NavigationCancelEvent` handles it. Both branches compile in the check.
 - **Package versions.** `com.unity.test-framework` 1.5.1 is set as a minimum. If 6000.6 bundles a newer locked version, the Package Manager upgrades it on first open.
 - **Theme stylesheet.** `Resources/UI/CardVaultTheme.tss` imports `unity-theme://default`. If Unity reports a missing theme on first import, create one with **Create > UI Toolkit > Default Runtime Theme File** at the same path.
-- **Art is procedural.** No image assets are included. The art pipeline is ready for drop-in images (see README).
+- **No generated art yet.** The pipeline in `tools/art/` (prompts, providers, import settings) is in place, but images must be generated on a machine with an image provider; this repo's cloud tooling cannot run image models. Until then cards show procedural art. The Editor importer (`CardArtImporter`) is not covered by the compile check because no UnityEditor reference assemblies are available outside the Editor.
 - **No audio, no haptics.**
 - **Collector name cannot be changed** in the UI yet; it defaults to "Collector".
 - **Tuning.** Prices, odds and XP curves are first-pass values in `generate_content.py`.
